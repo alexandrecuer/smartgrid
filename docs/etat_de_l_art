@@ -1,37 +1,4 @@
 04_Etat de l’art
-Alexandre CUER edited this page 8 days ago · 7 revisions
-Pages 5
 
-    Home
-    01_Objet du projet
-    02_Cas d’usages
-    03_Résultats attendus
-    04_Etat de l’art
-
-Add a custom sidebar
-Clone this wiki locally
 04_1_De l’enregistrement et de l’exploitation de données hétérogènes massives
 
-Même si le bureau d’études bâtiment du laboratoire de Clermont-Ferrand du Cerema utilise toujours dans ses projets d’instrumentation des capteurs enregistreurs autonomes, il a commencé à s’intéresser au concept de l’internet des objets (IOT – Internet of Things), déployant un réseau de capteurs connectés sur son propre site.
-
-    Côté énergie, le bâtiment du laboratoire utilise le gaz de ville, 6 circuits de chauffage alimentant prêt de 150 radiateurs. L’installation est régulée au format MODBUS/RS485 par un ensemble d’automates..
-
-Si le laboratoire de Clermont-Ferrand a choisi de développer ses propres capteurs, ce n’est pas pour concurrencer les produits commerciaux existants sur le marché mais pour en maîtriser les aspects métrologiques et conserver une autonomie dans le champ de la mesure physique de paramètres climatiques, qui est une de nos forces historiques.
-
-    Le laboratoire de Clermont-Ferrand est positionné depuis les années 1980 sur les conditions météo-dégradées, notamment via sa plate-forme de R&D Brouillard&Pluie.
-
-L’idée était de s’intéresser de près au fonctionnement logiciel des smart grids, appelés à s’unir dans un futur pas si lointain au sein d’un gigantesque internet de l’énergie.
-
-Ce réseau d’agents « intelligents », communiquant au format TCPIP, s’appuie sur l’infrastructure RJ45 qui équipe le bâtiment du laboratoire. Il a été retenu d’adresser les questions filaires en premier lieu car les infrastructures filaires sont très répandues, quelle soit de type ethernet ou de type électrique avec une couche de courants porteurs. Toutefois, vu la modularité des objets dont on dispose, il est très facile d’envisager d’autres modes de communication tel que le wifi ou la radio.
-
-La question du stockage des données3 est le véritable point dur, au coeur de tout projet de monitoring temps réel impliquant des objets connectés.
-
-    Les données à collecter sont par nature très hétérogènes, en provenance des capteurs connectés, des installations électriques (real power, apparent power, kWh increment), ou des dispositifs de chauffage (températures des sondes extérieures, température de l’eau dans les circuits de chauffage, état on/off des pompes, etc, etc).
-
-En effet, l’enjeu est bel et bien de disposer de gros volumes de données pour alimenter des algorithmes d’intelligence artificielle afin d’envisager des agents au fonctionnement smart et coopératif. Pour des questions de fluidité, la structure relationnelle des bases de données classiques (RDBMS ou Relational DataBase Management System) n’est pas adaptée au « BigData » et à l’internet des objets, qui nécessite la mise en œuvre d’outils plus légers, issus de la mouvance NoSQL. Dans nos recherches, nous nous sommes ainsi tournés assez vite vers les bases de données de séries chronologiques (TSDB - Time Series DataBases).
-
-Plusieurs moteurs ont été testés dont le fameux RRDTools de Tobias Oetiker, qui présente le désavantage de perdre en précision lorsqu’on s’intéresse à des données anciennes, et Timestore, outil développé en C par Mike Stirling dans les années 2013, aisément accessible en lecture/écriture depuis un serveur HTTP via des requêtes PHP. Timestore est une vraie innovation de rupture. Sur la base d’échanges de données au format JSON, un rendu graphique excessivement fluide est assuré par la bibliothèque AJAX Flot.js. Structurellement, Timestore garantit des temps de requêtes fixes, totalement indépendants du volume d’informations à afficher. De plus, contrairement à RRDTools, cette base est non destructive et conserve l’intégralité des données.
-
-Timestore est le moteur de l’excellent projet Emoncms , logiciel de monitoring énergétique open source développé par l’équipe d’Energy Monitor, projet collaboratif très dynamique mobilisant une quinzaine de développeurs de diverses nationalités : https://openenergymonitor.org/emon/
-
-Emoncms est totalement orienté objet et son architecture logicielle repose sur un port PHP recevant tout le trafic entrant pour l’orienter vers divers modules de traitement, en vue d’un enregistrement dans des flux de données, ou de visualisation.
