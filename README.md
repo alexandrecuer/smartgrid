@@ -13,5 +13,5 @@ TEPOS
 
 COP21 initiative 4
 
-<a href=docs/etat_de_l_art>état de l'art</a>
+[docs/etat_de_l_art]
 
