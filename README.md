@@ -9,9 +9,6 @@ Doter un bâtiment d'un système de mesure et de pilotage énergétique efficace
 
 Il s’agit d’une démarche couplant la route et le bâtiment, susceptible de s’intégrer dans les récentes initiatives TEPOS (territoires à énergie positive) visant à inventer un nouveau paysage énergétique, en combinant les valeurs d'autonomie et de solidarité. La démarche s’inscrit pleinement dans le plan de la route à énergie positive lancé par Ségolène Royal à la COP21 le 3 décembre 2015.
 
-TEPOS
+<a href=http://www.territoires-energie-positive.fr>TEPOS</a>
 
-COP21 initiative 4
-
-[docs/etat_de_l_art]
-
+<a href=http://www.developpement-durable.gouv.fr/IMG/pdf/2015-12-03_-_Actions_pour_le_climat_dans_les_transports.pdf>COP21  initiative 4</a>
