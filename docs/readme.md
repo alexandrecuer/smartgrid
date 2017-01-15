@@ -1,1 +1,0 @@
-:codox {:doc-paths ["/wiki"]}
