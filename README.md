@@ -21,3 +21,6 @@ Chaque page du wiki doit être terminée par ***
 
 On peut ensuite créer un pdf avec le logiciel pandoc. A noter qu'il faut avoir MiKTeX d'installé.
 
+Pandoc peut créer automatiquement une table des matière et tous les signets correspondant avec l'option --toc
+
+(cf document smart_grid_version_test_15_01_2017.pdf ci joint à la racine de ce dossier)
