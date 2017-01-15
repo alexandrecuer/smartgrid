@@ -1,4 +1,4 @@
-# élaboration de documents à l'aide de markdown et pandoc à partir des pages d'un wiki
+# élaboration de documents à l'aide de markdown et pandoc à partir des pages d'un wiki Github
 ## quelques précisions sur la syntaxe markdown
 
 Le caractère pour-cent % sert à formatter la page de garde
@@ -12,3 +12,9 @@ Notez finalement que l'on peut faire usage de styles et liens (techniques prése
 On peut utiliser plusieurs niveaux de titre en utilisant les caractères # (Titre de niveau 1), ## (Titre de niveau 2), etc, etc
 
 Pour injecter des figures, il est nécessaire d'installer le logiciel github desktop
+
+[emoncms.org](https://openenergymonitor.org/emon/)
+
+Emoncms (cf figure \ref{emonfront}) est totalement orienté objet et son architecture logicielle repose sur un port PHP recevant tout le trafic entrant pour l’orienter vers divers modules de traitement, en vue d’un enregistrement dans des flux de données, ou de visualisation.
+
+![version mobile et PC d'emoncms \label{emonfront}](emoncms_front.png)
