@@ -15,6 +15,8 @@ Pour injecter des figures, il est nécessaire d'installer le logiciel github des
 
 Markdown interprète toute ligne commencant par ! comme une figure
 
+la syntaxe est la suivante ![]()
+
 Pour numéroter les figures on utilise la syntaxe dérivée du LateX en fixant un label ![description \label{nom_label}](nom_image.png) et en faisant une référence
 
 Emoncms (cf figure \ref{emonfront}) est totalement orienté objet et son architecture logicielle repose sur un port PHP recevant tout le trafic entrant pour l’orienter vers divers modules de traitement, en vue d’un enregistrement dans des flux de données, ou de visualisation.
