@@ -13,8 +13,10 @@ On peut utiliser plusieurs niveaux de titre en utilisant les caractères # (Titr
 
 Pour injecter des figures, il est nécessaire d'installer le logiciel github desktop
 
-[emoncms.org](https://openenergymonitor.org/emon/)
+Markdown interprète toute ligne commencant par ! comme une figure
+
+Pour numéroter les figures on utilise la syntaxe dérivée du LateX en fixant un label ![description \label{nom_label}](nom_image.png) et en faisant une référence
 
 Emoncms (cf figure \ref{emonfront}) est totalement orienté objet et son architecture logicielle repose sur un port PHP recevant tout le trafic entrant pour l’orienter vers divers modules de traitement, en vue d’un enregistrement dans des flux de données, ou de visualisation.
 
-![version mobile et PC d'emoncms \label{emonfront}](emoncms_front.png)
+
