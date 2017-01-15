@@ -9,11 +9,6 @@ Si l'une ou l'autre de ces informations doit être omise, laissez le caractère 
 
 Notez finalement que l'on peut faire usage de styles et liens (techniques présentées plus bas) à l'intérieur des titres.
 
->> # Titre de niveau 1
+On peut utiliser plusieurs niveaux de titre en utilisant les caractères # (Titre de niveau 1), ## (Titre de niveau 2), etc, etc
 
->> ## Titre de niveau 2
-
->> ### Titre de niveau 3
-
->> #### Titre de niveau 4
-
+Pour injecter des figures, il est nécessaire d'installer le logiciel github desktop
