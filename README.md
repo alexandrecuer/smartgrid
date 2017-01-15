@@ -15,7 +15,7 @@ Pour injecter des figures, il est nécessaire d'installer le logiciel github des
 
 Markdown interprète toute ligne commencant par ! comme une figure
 
-La syntaxe ![texte alternatif](URL_IMAGE "titre optionnel")
+La syntaxe >> ![texte alternatif](URL_IMAGE "titre optionnel")
 
 Pour numéroter les figures on utilise la syntaxe dérivée du LateX en fixant un label \label{nom_label} et en faisant une référence (cf figure \ref{emonfront})
 
