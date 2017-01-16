@@ -22,7 +22,9 @@ Ce logiciel permet de cloner l'intégralité du projet dans un répertoire de so
 
 Sous windows 10, ce répertoire est généralement C:\Users\nom_user\Documents\GitHub\smartgrid.wiki
 
-On organise ensuite ce dossier comme on veut et gituhub desktop 
+On organise ensuite ce dossier comme on veut et on utilise github desktop pour les synchronisations.
+
+Avant de commencer à travailler sur son disque, on synchronise pour avoir la dernière version. Lorsqu'on a fini, on envoie les modifs vers le master et on synchronise
 
 Si on est derrière un proxy, il faut le déclarer pour que github desktop puisse cloner correctement 
 
@@ -37,6 +39,12 @@ Pour remettre la config par défault :
 ~~~~~~~ { .bash }
 git config --global --unset core.gitproxy
 ~~~~~~~
+
+Pour installer git bash :
+
+https://git-scm.com/download/win
+
+Cette synchronisation ne sert que pour l'injection des figures (cf point suivant)
 
 ### gestion de figures
 Pour injecter des figures au sein du wiki, il est nécessaire d'installer le logiciel github desktop
