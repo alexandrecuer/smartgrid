@@ -28,6 +28,8 @@ Chaque page du wiki doit être terminée par ***
 ### export en pdf
 
 On peut ensuite créer un pdf avec le logiciel pandoc. A noter qu'il faut avoir MiKTeX d'installé.
+http://pandoc.org/
+
 
 Pandoc peut créer automatiquement une table des matière et tous les signets correspondant avec l'option --toc
 
