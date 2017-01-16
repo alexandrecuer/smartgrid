@@ -1,6 +1,10 @@
 # élaboration de documents à l'aide de markdown et pandoc à partir des pages d'un wiki Github
 ## quelques précisions sur la syntaxe markdown
 
+Pour des explications détaillées sur pandoc en français, on se référera au site suivant :
+
+http://enacit1.epfl.ch/markdown-pandoc/
+
 ### page de garde
 Le caractère pour-cent % sert à formatter la page de garde
 
