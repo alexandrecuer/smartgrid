@@ -19,14 +19,11 @@ sous windows 10, ce répertoire est généralement C:\Users\nom_user\Documents\G
 on organise ensuite ce dossier comme on veut et gituhub desktop 
 Si on est derrière un proxy, il faut le déclarer pour que github desktop puisse cloner correctement 
 
-Pour celà :
+Pour celà, on ouvre un git bash et on lance la commande suivante, en remplaçant LOGIN, PASSWORD et YOUR.PROXY.SERVER par les paramètres convenant à son réseau
 
-    Open Git Bash.
-
-    Replace the username, password, and host in the following command with your proxy username, password, and URL, then run the command:
-
-    git config --global http.proxy http://YOUR_PROXY_USERNAME:YOUR_PROXY_PASSWORD@YOUR.PROXY.SERVER:8080
-
+~~~~~~~ { .bash }
+git config --global http.proxy http://LOGIN:PASSWORD@YOUR.PROXY.SERVER:8080
+~~~~~~~
 
 
 ### gestion de figures
