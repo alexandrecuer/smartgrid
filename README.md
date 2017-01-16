@@ -12,6 +12,23 @@ Si l'une ou l'autre de ces informations doit être omise, laissez le caractère 
 
 On peut utiliser plusieurs niveaux de titre en utilisant les caractères # (Titre de niveau 1), ## (Titre de niveau 2), etc, etc
 
+### clonage avec le logiciel github desktop
+
+ce logiciel permet de cloner l'intégralité du prohet dans un répertoire de son ordinateur
+sous windows 10, ce répertoire est généralement C:\Users\nom_user\Documents\GitHub\smartgrid.wiki
+on organise ensuite ce dossier comme on veut et gituhub desktop 
+Si on est derrière un proxy, il faut le déclarer pour que github desktop puisse cloner correctement 
+
+Pour celà :
+
+    Open Git Bash.
+
+    Replace the username, password, and host in the following command with your proxy username, password, and URL, then run the command:
+
+    git config --global http.proxy http://YOUR_PROXY_USERNAME:YOUR_PROXY_PASSWORD@YOUR.PROXY.SERVER:8080
+
+
+
 ### gestion de figures
 Pour injecter des figures au sein du wiki, il est nécessaire d'installer le logiciel github desktop
 
