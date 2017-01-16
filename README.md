@@ -44,7 +44,7 @@ Pour installer git bash :
 
 https://git-scm.com/download/win
 
-Cette synchronisation ne sert que pour l'injection des figures (cf point suivant)
+Cette synchronisation ne sert que pour l'injection des figures (cf point suivant) et pour produire les pdf. La gestion de contenu se fait en ligne.
 
 ### gestion de figures
 Pour injecter des figures au sein du wiki, il est nécessaire d'installer le logiciel github desktop
