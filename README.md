@@ -21,7 +21,7 @@ Pour numéroter les figures on utilise la syntaxe dérivée du LateX en fixant u
 
 On réalise ensuite les références dans le corps de texte de la manière suivante (cf figure \ref{nom_label})
 
-### gestion de spages du wiki
+### gestion des pages du wiki
 
 Chaque page du wiki doit être terminée par ***
 
