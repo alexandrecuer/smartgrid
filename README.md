@@ -47,7 +47,7 @@ https://git-scm.com/download/win
 Cette synchronisation ne sert que pour l'injection des figures (cf point suivant) et pour produire les pdf. La gestion de contenu se fait en ligne.
 
 ### gestion de figures
-Pour injecter des figures au sein du wiki, il est nécessaire d'installer le logiciel github desktop. On peut insérer des images depuis une URL quelconque mais l'interpéteur pandoc ne va pas réussir à les intégrer dans le pdf. Pour que l'interpéteur pandoc fonctionne correctement, les images doivent appartenir au wiki... 
+Pour injecter des figures au sein du wiki, il est nécessaire d'installer le logiciel github desktop. On peut insérer des images depuis une URL quelconque mais l'interpréteur pandoc ne va pas réussir à les intégrer dans le pdf. Pour que l'interpréteur pandoc fonctionne correctement, les images doivent appartenir au wiki... 
 
 Markdown interprète toute ligne commencant par ! comme une figure
 
@@ -78,7 +78,7 @@ http://miktex.org/
 
 Pandoc peut créer automatiquement une table des matières et tous les signets afférents avec l'option --toc
 
-Un fichier bat situé à la racine du wiki permet de faire celà en automatique creatpdf_local.bat
+Un fichier bat situé à la racine du wiki permet de faire celà en automatique createpdf_local.bat
 Ce fichier s'exécute en local et produit un fichier memoire.pdf à la racine du wiki
 
 après clonage, ce fichier est disponible en ligne :
