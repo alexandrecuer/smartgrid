@@ -14,12 +14,15 @@ On peut utiliser plusieurs niveaux de titre en utilisant les caractères # (Titr
 
 ### clonage avec le logiciel github desktop
 
-ce logiciel permet de cloner l'intégralité du prohet dans un répertoire de son ordinateur
-sous windows 10, ce répertoire est généralement C:\Users\nom_user\Documents\GitHub\smartgrid.wiki
-on organise ensuite ce dossier comme on veut et gituhub desktop 
+Ce logiciel permet de cloner l'intégralité du projet dans un répertoire de son ordinateur
+
+Sous windows 10, ce répertoire est généralement C:\Users\nom_user\Documents\GitHub\smartgrid.wiki
+
+On organise ensuite ce dossier comme on veut et gituhub desktop 
+
 Si on est derrière un proxy, il faut le déclarer pour que github desktop puisse cloner correctement 
 
-Pour celà, on ouvre un git bash et on lance la commande suivante, en remplaçant LOGIN, PASSWORD et YOUR.PROXY.SERVER par les paramètres convenant à son réseau
+Pour celà, on ouvre un git bash et on lance la commande suivante, en remplaçant LOGIN, PASSWORD et YOUR.PROXY.SERVER par les paramètres convenant à son réseau :
 
 ~~~~~~~ { .bash }
 git config --global http.proxy http://LOGIN:PASSWORD@YOUR.PROXY.SERVER:8080
