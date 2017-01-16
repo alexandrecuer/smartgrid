@@ -65,4 +65,9 @@ http://miktex.org/
 
 Pandoc peut créer automatiquement une table des matières et tous les signets afférents avec l'option --toc
 
-(cf document smart_grid_version_test_15_01_2017.pdf ci joint à la racine de ce dossier)
+Un fichier bat situé à la racine du wiki permet de faire celà en automatique creatpdf_local.bat
+Ce fichier s'exécute en local et produit un fichier memoire.pdf à la racine du wiki
+
+après clonage, ce fichier est disponible en ligne :
+
+https://github.com/alexandrecuer/smartgrid/wiki/memoire.pdf
