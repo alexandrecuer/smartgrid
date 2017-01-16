@@ -71,3 +71,7 @@ Ce fichier s'exécute en local et produit un fichier memoire.pdf à la racine du
 après clonage, ce fichier est disponible en ligne :
 
 https://github.com/alexandrecuer/smartgrid/wiki/memoire.pdf
+
+# Pour commencer à travailler :
+
+https://github.com/alexandrecuer/smartgrid/wiki/01_objet
