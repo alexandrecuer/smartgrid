@@ -36,12 +36,15 @@ Markdown interprète toute ligne commencant par ! comme une figure
 
 Pour numéroter les figures on utilise la syntaxe dérivée du LateX en fixant un label \label{nom_label} à la suite du texte descriptif de l'image en les crochets succédant au ! 
 
+On réalise ensuite les références dans le corps de texte de la manière suivante (cf figure \ref{nom_label})
+
 ~~~~~~~ { .markdown }
-(cf figure \ref{emonfront})
-![version mobile et PC d'emoncms \label{emonfront}](emoncms_front.png)
+(cf figure \ref{mon_label_de_figure})
+......bla bla bla.......
+![ma_description \label{mon_label_de_figure}](mon_image.png)
 ~~~~~~~
 
-On réalise ensuite les références dans le corps de texte de la manière suivante (cf figure \ref{nom_label})
+
 
 ### gestion des pages du wiki
 
