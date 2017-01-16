@@ -32,6 +32,11 @@ Pour celà, on ouvre un git bash et on lance la commande suivante, en remplaçan
 git config --global http.proxy http://LOGIN:PASSWORD@YOUR.PROXY.SERVER:8080
 ~~~~~~~
 
+Pour remettre la config par défault :
+
+~~~~~~~ { .bash }
+git config --global --unset core.gitproxy
+~~~~~~~
 
 ### gestion de figures
 Pour injecter des figures au sein du wiki, il est nécessaire d'installer le logiciel github desktop
