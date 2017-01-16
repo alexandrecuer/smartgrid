@@ -50,7 +50,7 @@ On réalise ensuite les références dans le corps de texte de la manière suiva
 ~~~~~~~ { .markdown }
 (cf figure \ref{mon_label_de_figure})
 ......bla bla bla.......
-![ma_description \label{mon_label_de_figure}](mon_image.png)
+![ma_description \label{mon_label_de_figure}](ma_figure.png)
 ~~~~~~~
 
 
