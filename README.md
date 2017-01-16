@@ -34,6 +34,6 @@ http://pandoc.org/
 http://miktex.org/
 
 
-Pandoc peut créer automatiquement une table des matière et tous les signets correspondant avec l'option --toc
+Pandoc peut créer automatiquement une table des matière et tous les signets afférents avec l'option --toc
 
 (cf document smart_grid_version_test_15_01_2017.pdf ci joint à la racine de ce dossier)
