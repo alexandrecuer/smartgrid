@@ -47,7 +47,7 @@ https://git-scm.com/download/win
 Cette synchronisation ne sert que pour l'injection des figures (cf point suivant) et pour produire les pdf. La gestion de contenu se fait en ligne.
 
 ### gestion de figures
-Pour injecter des figures au sein du wiki, il est nécessaire d'installer le logiciel github desktop
+Pour injecter des figures au sein du wiki, il est nécessaire d'installer le logiciel github desktop. On peut insérer des images depuis une URL quelconque mais l'interpéteur pandoc ne va pas réussir à les intégrer dans le pdf. Pour que l'interpéteur pandoc fonctionne correctement, les images doivent appartenir au wiki... 
 
 Markdown interprète toute ligne commencant par ! comme une figure
 
