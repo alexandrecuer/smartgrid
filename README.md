@@ -38,6 +38,8 @@ Pour remettre la config par défault :
 
 ~~~~~~~ { .bash }
 git config --global --unset core.gitproxy
+ou 
+git config --global --unset http.proxy
 ~~~~~~~
 
 Pour installer git bash :
