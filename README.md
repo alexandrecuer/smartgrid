@@ -5,7 +5,8 @@
 <a href=doc/Clermont-co_Cerema_dromotherm.pdf>Présentation du projet</a>
 
 # Le projet DROMOSENSE
-## The controller with artificial intelligence
+## The controller
+Artificial intelligence for energy management
 
 <a href=doc/smart_grid_version_test_15_01_2017.pdf>DROMOSENSE - le premier brouillon</a>
 
