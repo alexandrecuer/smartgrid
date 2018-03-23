@@ -1,9 +1,11 @@
 # Le projet DROMOTHERM
+## The physics
 
 <img src=doc/dromotherm_b.png height=300>
 <a href=doc/Clermont-co_Cerema_dromotherm.pdf>Présentation du projet</a>
 
 # Le projet DROMOSENSE
+## The controller with artificial intelligence
 
 <a href=doc/smart_grid_version_test_15_01_2017.pdf>DROMOSENSE - le premier brouillon</a>
 
