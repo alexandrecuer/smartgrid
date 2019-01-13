@@ -38,27 +38,31 @@ To start nodered as a service:
 ``sudo systemctl enable nodered.service``
 
 
-- activate projects ``sudo nano /home/pi/data/node-red/settings.js``
+- activate projects ``sudo nano /home/pi/data/node-red/settings.js`` in the editorTheme section :
 ```
-editorTheme: { projects: {enabled: true}
+projects: {enabled: true}
 ```
 
 
 
 ## UPDATE & UPGRADE
-'''sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get dist-upgrade'''
+sudo apt-get dist-upgrade
+```
 after that mariadb could not want to start
-
+```
 sudo nano /lib/systemd/system/mariadb.service
-Change
-ProtectHome=true to ProtectHome=false
+```
+Change``ProtectHome=true`` to ``ProtectHome=false``
 
 Then reload
+```
 sudo systemctl daemon-reload
 sudo service mariadb start
 sudo shutdown -r now
+```
 
 ////EXPAND FS
 create symlink for emonSDexpand
