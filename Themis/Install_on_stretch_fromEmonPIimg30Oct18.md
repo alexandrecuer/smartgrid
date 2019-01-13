@@ -165,7 +165,7 @@ cd /var/www/html
 sudo ln -s /var/www/phpmyadmin
 ```
 
-mariadb conf files are in etc/mysql
+mariadb conf files are in /etc/mysql
 
 this configuration indicates where is the sock file
 
