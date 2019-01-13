@@ -126,53 +126,58 @@ sudo git checkout master
 sudo git pull
 ```
 
-////COMPOSER
+## COMPOSER
 https://github.com/composer/composer
+
 https://getcomposer.org/download/
+```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+```
+``
 php -r "if (hash_file('sha384', 'composer-setup.php') === '93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+``
+```
 sudo php composer-setup.php --install-dir=/sbin --filename=composer
+```
+```
 php -r "unlink('composer-setup.php');"
+```
 
-////YARN
+
+## YARN
+```
 curl -o- -L https://yarnpkg.com/install.sh | bash
+```
 
-////DEV-PURPOSES-PHPMYADMIN
-on essaye de se connecter à mariadb en invite de commande
-mysql -u emoncms -p
-on tape le mot de passe : emonpiemoncmsmysql2016 
-SHOW DATABASES;
-on peut recréer un user root enlevé par OEM 
-sudo mysql -e "CREATE USER 'root' IDENTIFIED BY 'emonpimysql2016'; GRANT ALL ON *.* TO 'root'; flush privileges;"
-
-pour créer un user admin
-mysql -u admin -p
-CREATE USER 'admin'@'%' IDENTIFIED BY 'bbz2xcw';
-GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;
-FLUSH PRIVILEGES;
-
-pour afficher les users une fois connecté à l'invite mysql
-SELECT user, host, plugin FROM mysql.user;
+## DEV-PURPOSES-PHPMYADMIN
 
 https://github.com/phpmyadmin/phpmyadmin
-ni le master ni les dernières release ne sont compatibles avec php7.0
-on prend une release compatible de niveau 4.6 et on la décompresse dans /var/www
+STRETCH runs PHP7.0 and phpmyadmin master branch is for PHP7.1 or above
+
+Dowload a release compatible with PHP7.0 (v4.6..) and unzip in /var/www
+
+```
 cd /var/www/phpmyadmin
 composer update --no-dev
 yarn install
 cd /var/www/html
 sudo ln -s /var/www/phpmyadmin
+```
 
-le conf de mariadb sont dans etc/mysql
-ce conf indique où est le fichier sock
-on rajoute dans le config.inc.php de phpmyadmin la ligne suivante :
+mariadb conf files are in etc/mysql
+
+this configuration indicates where is the sock file
+
+Create a config.inc.php file from the config.sample.inc.php, and modify as following :
+```
 $cfg['Servers'][$i]['socket'] = '/home/pi/data/mysql/mysql.sock';
-il faut aussi rentrer la clé secrête car on s'authentifie par cookie
 $cfg['blowfish_secret'] = '123456789012345678901234567890AB';
+```
 
 
-////DEV-PURPOSES-redis admin
-rpi-rw
+## DEV-PURPOSES-redis admin
+
+```
 cd /var/www
 sudo git clone https://github.com/ErikDubbelboer/phpRedisAdmin.git
 cd phpRedisAdmin/
@@ -181,3 +186,4 @@ cd html
 sudo ln -s /var/www/phpRedisAdmin
 sudo systemctl daemon-reload
 sudo service apache2 restart
+```
