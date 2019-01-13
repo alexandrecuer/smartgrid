@@ -6,6 +6,8 @@ Jessie was : https://github.com/emoncms/emoncms/blob/master/docs/RaspberryPi/jes
 
 upgrade from jessie to stretch https://github.com/openenergymonitor/emonpi/wiki/Upgrade-Jessie---Stretch
 
+Check also this : https://github.com/openenergymonitor/emonpi/wiki/emonSD-pre-built-SD-card-Download-&-Change-Log
+
 just for general knowledge : https://anton.logvinenko.site/en/blog/how-to-install-redis-and-redis-php-client.html
 
 ## enabling SSH
