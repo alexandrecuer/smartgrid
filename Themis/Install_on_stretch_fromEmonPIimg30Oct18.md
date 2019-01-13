@@ -153,6 +153,14 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 
 ## DEV-PURPOSES-PHPMYADMIN
 
+Please note that root access is disabled for security purposes
+
+default root password is emonpimysql2016
+
+default emoncms password is emonpiemoncmsmysql2016
+
+You should change them and report the changes for the user emoncms in the settings.php file of Emoncms
+
 https://github.com/phpmyadmin/phpmyadmin
 
 STRETCH runs PHP7.0 and phpmyadmin master branch is for PHP7.1 or above
