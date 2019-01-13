@@ -153,13 +153,15 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 
 ## DEV-PURPOSES-PHPMYADMIN
 
-Please note that root access is disabled for security purposes
+Please note that root tcpip access to mariadb is disabled for security purposes
 
 default root password is emonpimysql2016
 
 default emoncms password is emonpiemoncmsmysql2016
 
 You should change them and report the changes for the user emoncms in the settings.php file of Emoncms
+
+to connect localy to mariadb ``mysql -u emoncms -p`` or ``mysql -u root -p``
 
 https://github.com/phpmyadmin/phpmyadmin
 
