@@ -186,7 +186,7 @@ Create a config.inc.php file from the config.sample.inc.php, and modify as follo
 $cfg['Servers'][$i]['socket'] = '/home/pi/data/mysql/mysql.sock';
 $cfg['blowfish_secret'] = '123456789012345678901234567890AB';
 ```
-
+Access is done via cookies and not with the old config mode
 
 ## DEV-PURPOSES-redis admin
 
