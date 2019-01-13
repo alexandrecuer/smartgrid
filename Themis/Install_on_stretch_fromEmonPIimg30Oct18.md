@@ -152,6 +152,7 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 ## DEV-PURPOSES-PHPMYADMIN
 
 https://github.com/phpmyadmin/phpmyadmin
+
 STRETCH runs PHP7.0 and phpmyadmin master branch is for PHP7.1 or above
 
 Dowload a release compatible with PHP7.0 (v4.6..) and unzip in /var/www
