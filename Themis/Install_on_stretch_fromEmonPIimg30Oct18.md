@@ -103,7 +103,7 @@ sudo service emonhub restart
 cd /var/www/emoncms
 ```
 
-Emoncms team use releases (stable) :
+Emoncms team uses releases (stable) :
 ```
 git config --list
 core.repositoryformatversion=0
