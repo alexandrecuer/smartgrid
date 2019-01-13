@@ -64,35 +64,47 @@ sudo service mariadb start
 sudo shutdown -r now
 ```
 
-////EXPAND FS
+## EXPAND FS
 create symlink for emonSDexpand
-sudo ln -s /home/pi/usefulscripts/sdpart/sdpart_imagefile /sbin/emonSDexpand
+``sudo ln -s /home/pi/usefulscripts/sdpart/sdpart_imagefile /sbin/emonSDexpand``
+```
 emonSDexpand
-
+```
 Nota : if usefulscripts not present 
 https://github.com/emoncms/usefulscripts
 
-////PYMODBUS && EMONHUB
+## PYMODBUS
+```
 sudo apt-get install python-dev
 cd /
 sudo git clone https://github.com/bashwork/pymodbus
 cd pymodbus
 sudo python setup.py install
-
+```
+## EMONHUB
+```
 cd /home/pi/emonhub
-on change la source du dépôt qui est théoriquement https://github.com/openenergymonitor/emonhub.git
+```
+change the source repository which should be : https://github.com/openenergymonitor/emonhub.git
+```
 git remote set-url origin https://github.com/alexandrecuer/emonhub.git
 sudo git fetch
-celà doit faire apparaître la nouvelle branche propre à THEMIS
+```
+You should see a new branch called THEMIS
+```
  * [new branch]      modbusTCPinterfacer_multi_nodes -> origin/modbusTCPinterfacer_multi_nodes
-
+```
+```
 sudo git checkout modbusTCPinterfacer_multi_nodes
 sudo service emonhub restart
-
-////EMONCMS
+```
+## EMONCMS
+```
 cd /var/www/emoncms
+```
 
-On voit que emoncms utilise les releases (stable) :
+Emoncms team use releases (stable) :
+```
 git config --list
 core.repositoryformatversion=0
 core.filemode=true
@@ -102,15 +114,17 @@ remote.origin.url=https://github.com/emoncms/emoncms.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.stable.remote=origin
 branch.stable.merge=refs/heads/stable
-branch.master.remote=origin OK
-branch.master.merge=refs/heads/master OK
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
 branch.systmdRunner.remote=origin
 branch.systmdRunner.merge=refs/heads/systmdRunner
-
+```
+```
 git remote set-url origin https://github.com/alexandrecuer/emoncms.git
 sudo git fetch
 sudo git checkout master
 sudo git pull
+```
 
 ////COMPOSER
 https://github.com/composer/composer
