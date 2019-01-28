@@ -183,8 +183,24 @@ this configuration indicates where is the sock file
 
 Create a config.inc.php file from the config.sample.inc.php, and modify as following :
 ```
-$cfg['Servers'][$i]['socket'] = '/home/pi/data/mysql/mysql.sock';
 $cfg['blowfish_secret'] = '123456789012345678901234567890AB';
+```
+
+```
+$i = 0;
+
+/**
+ * First server
+ */
+$i++;
+/* Authentication type */
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['socket'] = '/home/pi/data/mysql/mysql.sock';
+/* Server parameters */
+$cfg['Servers'][$i]['host'] = 'localhost';
+$cfg['Servers'][$i]['connect_type'] = 'socket';
+$cfg['Servers'][$i]['compress'] = false;
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
 ```
 Access is done via cookies and not with the old config mode
 
