@@ -20,7 +20,7 @@ cmd
 ```
 At the MSDOS prompt:
 ```
-'echo.>D:\ssh
+echo.>D:\ssh
 ```
 
 # NODERED
