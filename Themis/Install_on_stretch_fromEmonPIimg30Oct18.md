@@ -211,7 +211,7 @@ cd /var/www
 sudo git clone https://github.com/ErikDubbelboer/phpRedisAdmin.git
 cd phpRedisAdmin/
 sudo git clone https://github.com/nrk/predis.git vendor
-cd html
+cd /var/www/html
 sudo ln -s /var/www/phpRedisAdmin
 sudo systemctl daemon-reload
 sudo service apache2 restart
