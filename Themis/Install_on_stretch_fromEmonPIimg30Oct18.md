@@ -54,17 +54,33 @@ sudo apt-get upgrade
 sudo apt-get dist-upgrade
 ```
 after that mariadb could not want to start
-```
-sudo nano /lib/systemd/system/mariadb.service
-```
-Change``ProtectHome=true`` to ``ProtectHome=false``
 
-Then reload
+Change in file /lib/systemd/system/mariadb.service the value ``ProtectHome=true`` to ``ProtectHome=false``
+
+It may be that the dist-upgrade has introduced a new service file that now has the value as **true** or else this file is edited in the EmonSD build (which is still a closely guarded secret).
+
+Editing **any** service file is a **bad idea**. Instead;
+
+```
+sudo systemctl edit mariadb.service
+```
+
+then add
+
+```
+[Service]
+ProtectHome=false
+```
+
+Save file then;
+
 ```
 sudo systemctl daemon-reload
-sudo service mariadb start
+sudo systemctl restart mariadb.service
 sudo shutdown -r now
 ```
+
+This change is then protected if the service file is updated.
 
 ## EXPAND FS
 create symlink for emonSDexpand
