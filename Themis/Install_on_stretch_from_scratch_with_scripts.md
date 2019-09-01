@@ -43,23 +43,21 @@ cd EmonScripts
 sudo cp init_resize.sh /usr/lib/raspi-config/init_resize.sh
 sudo nano /boot/cmdline.txt 
 ```
-just restore the original content with `init=/usr/lib/raspi-config/init_resize.sh` at the end
+just restore the original content with `init=/usr/lib/raspi-config/init_resize.sh` at the end and reboot the pi
 
-Then reboot the pi
-
-format the new ext2 partition
+Format the new ext2 partition
 
 `
 sudo mkfs.ext2 -b 1024 /dev/mmcblk0p3
 `
+
 Once done just change the fstab
 
 `
 sudo cp /opt/emon/EmonScripts/defaults/etc/fstab /etc/fstab
 `
-and reboot
- 
-to check partitions types
+
+Reboot and check partitions types
  
 `
 sudo file -sL /dev/mmcblk0p*
