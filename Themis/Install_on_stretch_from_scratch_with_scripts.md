@@ -1,1 +1,1 @@
-# Install Themis on raspbian stretch from scrtach using the scripts	
+# Install Themis on raspbian stretch from scratch using the scripts	
