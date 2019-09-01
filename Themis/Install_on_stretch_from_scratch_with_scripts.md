@@ -30,4 +30,13 @@ plug the SD into the RPI, boot, then connect via SSH (user pi password raspberry
 
 change user `pi` password, using the command `passwd`
 
+```
+cd /opt
+sudo mkdir emon
+sudo chown pi:pi emon
+cd emon
+sudo apt-get install git 
+```
+
+
 
