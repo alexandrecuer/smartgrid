@@ -42,5 +42,14 @@ sudo apt-get install git
 
  sudo cp init_resize.sh /usr/lib/raspi-config/init_resize.sh
  
+ to check partitions types
+ 
+ `
  sudo file -sL /dev/mmcblk0p*
-
+ `
+ 
+ or
+ 
+ `
+ lsblk  -f
+ `
