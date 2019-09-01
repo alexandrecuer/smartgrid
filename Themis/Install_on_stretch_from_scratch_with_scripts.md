@@ -1,5 +1,9 @@
 # Install Themis on raspbian stretch from scratch using the scripts	
 
+## preparation
+
+On a workstation of any type
+
 burn a rasbian stretch lite image on the SD using Etcher
 
 open the file /boot/cmdline.txt and remove the init= part of the single and only line so that it becomes :
@@ -19,3 +23,11 @@ enable SSH, assuming the SD has been mouted on the unit E
 `
 echo.>E:\ssh
 `
+
+## installation
+
+plug the SD into the RPI, boot, then connect via SSH (user pi password raspberry)
+
+change user `pi` password, using the command `passwd`
+
+
