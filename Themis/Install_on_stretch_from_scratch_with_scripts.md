@@ -13,3 +13,9 @@ original full line after the burn
 `
 dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=PARTUUID=c1dc39e5-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet init=/usr/lib/raspi-config/init_resize.sh
 `
+
+enable SSH, assuming the SD has been mouted on the unit E
+
+`
+echo.>E:\ssh
+`
