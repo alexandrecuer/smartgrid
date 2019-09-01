@@ -40,5 +40,5 @@ cd emon
 sudo apt-get install git 
 ```
 
-
+ sudo cp init_resize.sh /usr/lib/raspi-config/init_resize.sh
 
