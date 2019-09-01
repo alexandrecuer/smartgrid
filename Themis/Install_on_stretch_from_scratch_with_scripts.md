@@ -42,5 +42,5 @@ sudo apt-get install git
 
  sudo cp init_resize.sh /usr/lib/raspi-config/init_resize.sh
  
- file -sL /dev/mmcb*
+ sudo file -sL /dev/mmcblk0p*
 
