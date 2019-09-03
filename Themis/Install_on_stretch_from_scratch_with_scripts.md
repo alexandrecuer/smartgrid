@@ -86,9 +86,38 @@ sudo umount /dev/sdc2
 
 plug the SD into the RPI, boot, then connect via SSH (user pi password raspberry)
 
+Create a directory that will be a mount point for the rw data partition
+
+```
+sudo mkdir /var/opt/emoncms
+sudo chown www-data /var/opt/emoncms
+```
+Use modified fstab
+```
+wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/defaults/etc/fstab
+sudo cp fstab /etc/fstab
+sudo reboot
+```
+
+with `df -h` and a 16Gb sd card, the output should be :
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       4.2G  1.1G  3.0G  26% /
+devtmpfs        460M     0  460M   0% /dev
+tmpfs           464M     0  464M   0% /dev/shm
+tmpfs           464M  6.2M  458M   2% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           464M     0  464M   0% /sys/fs/cgroup
+tmpfs           1.0M     0  1.0M   0% /var/tmp
+tmpfs            30M     0   30M   0% /tmp
+/dev/mmcblk0p3   11G  3.8M  9.6G   1% /var/opt/emoncms
+/dev/mmcblk0p1   43M   22M   21M  51% /boot
+tmpfs            93M     0   93M   0% /run/user/1000
+```
+
 change user `pi` password, using the command `passwd`
 
-Create a directory named emon in /opt and install git
+Create a directory named openenergymonitor in /opt and install git
 
 ```
 cd /opt
@@ -98,24 +127,10 @@ cd openenergymonitor
 sudo apt-get install git 
 git clone -b master https://github.com/alexandrecuer/EmonScripts
 cd EmonScripts
-sudo cp init_resize.sh /usr/lib/raspi-config/init_resize.sh
-sudo nano /boot/cmdline.txt 
 ```
-just restore the original content with `init=/usr/lib/raspi-config/init_resize.sh` at the end and reboot the pi
 
-Format the new ext2 partition
 
-`
-sudo mkfs.ext2 -b 1024 /dev/mmcblk0p3
-`
-
-Once done just change the fstab
-
-`
-sudo cp /opt/openenergymonitor/EmonScripts/defaults/etc/fstab /etc/fstab
-`
-
-Reboot and check partitions types
+To check partitions types
  
 `
 sudo file -sL /dev/mmcblk0p*
