@@ -1,6 +1,6 @@
 # Install Themis on raspbian stretch from scratch using the scripts	
 
-## preparation if you only have a windows workstation and a linux virtual machine on it
+## preparation if you only have a windows workstation with a linux virtual machine on it
 
 we assume you use Oracle VM VirtalBox for virtualization
 
