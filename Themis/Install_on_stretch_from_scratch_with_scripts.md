@@ -34,9 +34,9 @@ Create a directory named emon in /opt and install git
 
 ```
 cd /opt
-sudo mkdir emon
-sudo chown pi:pi emon
-cd emon
+sudo mkdir openenergymonitor
+sudo chown pi:pi openenergymonitor
+cd openenergymonitor
 sudo apt-get install git 
 git clone -b master https://github.com/alexandrecuer/EmonScripts
 cd EmonScripts
@@ -54,7 +54,7 @@ sudo mkfs.ext2 -b 1024 /dev/mmcblk0p3
 Once done just change the fstab
 
 `
-sudo cp /opt/emon/EmonScripts/defaults/etc/fstab /etc/fstab
+sudo cp /opt/openenergymonitor/EmonScripts/defaults/etc/fstab /etc/fstab
 `
 
 Reboot and check partitions types
