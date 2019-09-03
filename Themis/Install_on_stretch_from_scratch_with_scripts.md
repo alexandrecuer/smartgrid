@@ -12,6 +12,9 @@ open the file /boot/cmdline.txt and remove the init= part of the single and only
 dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=PARTUUID=c1dc39e5-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet
 `
 
+dwc_otg.lpm_enable=0 console=tty1 elevator=noop root=/dev/mmcblk0p2 rootfstype=ext4 fsck.repair=yes rootwait
+
+
 original full line after the burn
 
 `
