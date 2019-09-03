@@ -117,16 +117,29 @@ tmpfs            93M     0   93M   0% /run/user/1000
 
 change user `pi` password, using the command `passwd`
 
-Create a directory named openenergymonitor in /opt and install git
+Create 2 directories  in /opt :
+- openenergymonitor, for the scripts and emonhub sources
+- emoncms, for symlinked modules (postprocess, sync) and for uploaded tar.gz archives when importing a backup
 
 ```
 cd /opt
+sudo mkdir /opt/emoncms
+sudo chown pi:pi /opt/emoncms
 sudo mkdir openenergymonitor
 sudo chown pi:pi openenergymonitor
+```
+
+install git
+```
+sudo apt-get install git
+```
+install the scripts :
+```
 cd openenergymonitor
-sudo apt-get install git 
 git clone -b master https://github.com/alexandrecuer/EmonScripts
 cd EmonScripts
+cd install
+./main.sh
 ```
 
 
