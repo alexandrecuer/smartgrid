@@ -115,8 +115,6 @@ tmpfs            30M     0   30M   0% /tmp
 tmpfs            93M     0   93M   0% /run/user/1000
 ```
 
-change user `pi` password, using the command `passwd`
-
 Create 2 directories  in /opt :
 - openenergymonitor, for the scripts and emonhub sources
 - emoncms, for symlinked modules (postprocess, sync) and for uploaded tar.gz archives when importing a backup
@@ -154,3 +152,5 @@ or
 `
 lsblk  -f
 `
+
+change user `pi` password, using the command `passwd`
