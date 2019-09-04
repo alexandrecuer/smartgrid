@@ -39,9 +39,10 @@ Running a DOS shell as an admin, create a vmdk file :
 "C:\Program Files\Oracle\VirtualBox\VBoxManage" internalcommands createrawvmdk -filename "c:/hdd/sd.vmdk" -rawdisk "\\.\PHYSICALDRIVE1"
 ```
 
-then run Oracle VM VirtualBox as an admin
-on the machine you want to run, click on configuration>storage
-on controller SATA, add a new hard disk > choose existing hdd and point to the sd.vmdk file you've created
+then :
+- run Oracle VM VirtualBox as an admin
+- on the machine you want to run, click on configuration>storage
+- on controller SATA, add a new hard disk > choose existing hdd and point to the sd.vmdk file you've created
 
 Boot the VM and search for the device corresponding to the sd with fdisk :
 
