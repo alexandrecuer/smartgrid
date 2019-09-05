@@ -124,7 +124,7 @@ Create 2 directories  in /opt :
 
 ```
 cd /opt
-sudo mkdir /opt/emoncms
+sudo mkdir emoncms
 sudo chown pi:pi /opt/emoncms
 sudo mkdir openenergymonitor
 sudo chown pi:pi openenergymonitor
