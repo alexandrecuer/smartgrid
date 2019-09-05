@@ -41,8 +41,10 @@ Running a DOS shell as an admin, create a vmdk file :
 
 then :
 - run Oracle VM VirtualBox as an admin
-- on the machine you want to run, click on configuration>storage
-- on controller SATA, add a new hard disk > choose existing hdd and point to the sd.vmdk file you've created
+- on the machine you want to run, click on Settings>storage
+- on SATA controller, add a new hard disk > choose existing hdd and point to the sd.vmdk file you've created
+
+<img src=emonSD_access_through_VM.png>
 
 Boot the VM and search for the device corresponding to the sd with fdisk :
 
