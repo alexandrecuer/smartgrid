@@ -5,27 +5,17 @@ Copy the default cmdline.txt to cmdline2.txt in the boot partition and then open
 
 ```
 wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/install/init_resize.sh
-
 chmod +x init_resize.sh
-
 sudo mv init_resize.sh /usr/lib/raspi-config/init_resize.sh
-
 sudo mv /boot/cmdline2.txt /boot/cmdline.txt
-
 sudo reboot
 
 sudo resize2fs /dev/mmcblk0p2
-
 sudo mkfs.ext2 -b 1024 /dev/mmcblk0p3
-
 sudo mkdir /var/opt/emoncms
-
 sudo chown www-data /var/opt/emoncms
-
 wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/defaults/etc/fstab
-
 sudo cp fstab /etc/fstab
-
 sudo reboot
 ```
 install the scripts
