@@ -1,7 +1,17 @@
+# themis installation
+
+## prepare the SD card
+
+burn the lastest version of rapsbian (buster) with Etcher
+
+if SD mounted on E:, create an ssh file on /boot
+
 ```
 echo.>E:\ssh
 ```
 Copy the default cmdline.txt to cmdline2.txt in the boot partition and then open to edit cmdline.txt, remove: init=/usr/lib/raspi-config/init_resize.sh
+
+## boot the RPI and adjust the file system
 
 ```
 wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/install/init_resize.sh
@@ -18,6 +28,9 @@ wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/defa
 sudo cp fstab /etc/fstab
 sudo reboot
 ```
+
+## install the softwares
+
 install the scripts
 
 ```
@@ -31,7 +44,7 @@ cd EmonScripts
 cd install
 ```
 
-change config.ini with the following lines
+change emonsd.config.ini with the following lines
 ```
 
 emoncms_core_branch=themis
