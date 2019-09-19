@@ -1,4 +1,4 @@
-# Install Themis on raspbian stretch from scratch using the scripts	
+# Install emoncms on raspbian stretch from scratch using the scripts	
 
 ## preparation if you only have a windows workstation with a linux virtual machine on it
 
