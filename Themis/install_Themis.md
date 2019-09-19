@@ -73,3 +73,5 @@ launch the scripts
 ```
 ./main.sh
 ```
+
+## install NodeRED
