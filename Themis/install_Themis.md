@@ -26,7 +26,7 @@ sudo mkdir openenergymonitor
 sudo chown pi:pi openenergymonitor
 sudo apt-get install git
 cd openenergymonitor
-git clone -b master https://github.com/alexandrecuer/EmonScripts
+git clone -b master https://github.com/openenergymonitor/EmonScripts
 cd EmonScripts
 cd install
 ```
