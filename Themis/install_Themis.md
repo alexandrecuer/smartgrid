@@ -31,11 +31,11 @@ sudo reboot
 
 ## install the themis softwares 
 
-The themis tools are developped on the basis of the emoncms écosystème
+The themis tools are developped on the basis of the emoncms ecosystem
 
 They consist of :
-- a vizualisation tool for creating psychometric diagram 
-- an algorithm dedicated to the calculation of infiltration lisses on a building
+- a vizualisation tool for creating psychometric diagrams 
+- an algorithm dedicated to the calculation of infiltration losses on a building
 
 install the scripts
 
