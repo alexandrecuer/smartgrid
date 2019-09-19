@@ -1,4 +1,4 @@
-Note : this is deprecated
+Note : this is deprecated but things at the bottom (phpredisadmin, phpadmin) can be usefull for development
 
 # Install THEMIS tools on the basis of the 30/10/2018 OEM raspbian STRETCH EmonPI img
 
