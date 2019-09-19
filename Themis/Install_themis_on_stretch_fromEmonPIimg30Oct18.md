@@ -1,3 +1,5 @@
+Note : this is deprecated
+
 # Install THEMIS tools on the basis of the 30/10/2018 OEM raspbian STRETCH EmonPI img
 
 https://github.com/emoncms/emoncms/blob/master/docs/RaspberryPi/readme.md
