@@ -53,7 +53,6 @@ cd install
 
 change emonsd.config.ini with the following lines
 ```
-
 emoncms_core_branch=themis
 emonhub_branch=modbusTCPinterfacer_multinodes_env_example
 ```
