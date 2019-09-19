@@ -33,16 +33,22 @@ cd install
 
 change config.ini with the following lines
 ```
-git_repo[emoncms_core]=https://github.com/alexandrecuer/emoncms.git
+
 emoncms_core_branch=themis
+emonhub_branch=modbusTCPinterfacer_multinodes_env_example
+```
+```
+symlinked_emoncms_modules[postprocess]=themis
+```
+```
+git_repo[emoncms_core]=https://github.com/alexandrecuer/emoncms.git
+# main modules
 git_repo[config]=https://github.com/alexandrecuer/config.git
+```
+```
 git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
 # emonhub
 git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
-emonhub_branch=modbusTCPinterfacer_multinodes_env_example
-
-symlinked_emoncms_modules[postprocess]=themis
-
 ```
 launch the scripts
 ```
