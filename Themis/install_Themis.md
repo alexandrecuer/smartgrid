@@ -75,3 +75,10 @@ launch the scripts
 ```
 
 ## install NodeRED
+
+```
+bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
+```
+To start nodered as a service: `sudo systemctl enable nodered.service`
+
+
