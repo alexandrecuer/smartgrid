@@ -229,7 +229,7 @@ cd /var/www
 sudo git clone https://github.com/ErikDubbelboer/phpRedisAdmin.git
 cd phpRedisAdmin/
 sudo git clone https://github.com/nrk/predis.git vendor
-cd /var/www/html
+cd /var/www/html or cd /var/www/emoncms
 sudo ln -s /var/www/phpRedisAdmin
 sudo systemctl daemon-reload
 sudo service apache2 restart
