@@ -1,3 +1,5 @@
+Check http://dromotherm.github.io/blog
+
 # Le projet DROMOTHERM
 ## The physics
 
