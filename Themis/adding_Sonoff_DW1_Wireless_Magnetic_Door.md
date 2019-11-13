@@ -34,7 +34,7 @@ Before using esptool in cli you will need to connect the bridge to your computer
 
 4) And power the device either via the microUSB port or via the 3V3 pin on the same programming header
 
-![connection to a UART2USB cable](assets/connection_to_UART.jpg)
+![connection to a UART2USB cable](assets/flashing.png)
 
 red : 3V
 
