@@ -9,6 +9,8 @@ The DW1 sensor is designed to send its radio payloads to a [Sonoff RF Bridge 433
 
 Some github projects focused on developping opensource firmwares for the Sonoff RF Bridge 533, such as [openMQTTgateway](https://github.com/1technophile/OpenMQTTGateway) and [espurna](https://github.com/xoseperez/espurna)
 
+These developments are based on the [rc-switch library](https://github.com/sui77/rc-switch) for radio functionalities and on the [pubsubclient Arduino Client](https://github.com/knolleary/pubsubclient) for the MQTT part
+
 With minimal effort, it is possible to use the sonoff DW1 in Themis or Emoncms
 
 # soldering pin header to connect a UART2USB programming cable
