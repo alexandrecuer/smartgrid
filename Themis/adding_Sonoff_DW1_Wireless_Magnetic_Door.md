@@ -88,4 +88,43 @@ Image restoration can be achieved specifying the starting address:
 esptool --port COM4 write_flash 0x00000 esp-1MB-backup.bin
 ```
 
+# install OpenMQTTGateway firmware
+The best choice to compile the firmware is to use Atom and its integrated terminal platformio-ide-terminal 
+
+In atom :
+
+1) Open the folder named "OpenMQTTGateway"
+
+2) Open the platformio.ini file and uncomment the rfbridge line
+```
+default_envs = rfbridge
+```
+all others modifications have to be done within the main/User_config.h
+
+the easiest solution is to use a wifi in manual mode. To achieve that, just uncomment the `#define ESPWifiManualSetup true` line :
+```
+/*-------------DEFINE YOUR  NETWORK PARAMETERS BELOW----------------*/
+#if defined(ESP8266)||defined(ESP32)  // for nodemcu, weemos and esp8266
+  #define ESPWifiManualSetup true //uncomment you don't want to use wifimanager for your credential settings on ESP
+#endif
+```
+
+Just below, fill in the credentials so that they fit to the local wifi network where the mqtt server is located 
+```
+#if defined(ESPWifiManualSetup) // for nodemcu, weemos and esp8266
+  #define wifi_ssid "your_ssid"
+  #define wifi_password "your_password"
+#else // for arduino + W5100
+  const byte mac[] = {  0xDE, 0xED, 0xBA, 0xFE, 0x54, 0x95 }; //W5100 ethernet shield mac adress
+#endif
+```
+
+Still in main/User_config.h, define the mqqt parameters of the receiving server. If you are using a standard emoncms configuration : 
+```
+/*-------------DEFINE YOUR MQTT PARAMETERS BELOW----------------*/
+char mqtt_user[20] = "emonpi"; // not compulsory only if your broker needs authentication
+char mqtt_pass[30] = "emonpimqtt2016"; // not compulsory only if your broker needs authentication
+char mqtt_server[40] = "192.168.1.27";
+char mqtt_port[6] = "1883";
+```
 
