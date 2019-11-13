@@ -15,7 +15,7 @@ before soldering
 after soldering
 ![after soldering](assets/after_soldering.jpg)
 bottom view after soldering
-![after soldering bottom view](assets/after_soldering_bottom_view.jpg)
+![after soldering bottom view](assets/after_soldering_bottom_view_small.png)
 
 # backup the stock/factory firmware on the Sonoff RF bridge
 This part will use the esptool which you can install easily
