@@ -88,14 +88,10 @@ Image restoration can be achieved specifying the starting address:
 esptool --port COM4 write_flash 0x00000 esp-1MB-backup.bin
 ```
 
-# install OpenMQTTGateway firmware
-The best choice to compile the firmware is to use Atom and its integrated terminal platformio-ide-terminal 
+# burn the OpenMQTTGateway firmware into the bridge
+The best choice to compile and burn the firmware is to use Atom and its integrated terminal platformio-ide-terminal 
 
-In atom :
-
-1) Open the folder named "OpenMQTTGateway"
-
-2) Open the platformio.ini file and uncomment the rfbridge line
+In atom, open the folder named "OpenMQTTGateway", open the platformio.ini file and uncomment the rfbridge line
 ```
 default_envs = rfbridge
 ```
