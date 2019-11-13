@@ -40,9 +40,9 @@ red : 3V
 
 black : ground
 
-yellow : RX on the bridge
+yellow : RX from the bridge
 
-orange : TX on the bridge
+orange : TX from the bridge
 
 You can get the firmware size with the command `esptool flash_id`  
 ```
