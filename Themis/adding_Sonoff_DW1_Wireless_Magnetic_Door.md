@@ -119,12 +119,32 @@ Just below, fill in the credentials so that they fit to the local wifi network w
 #endif
 ```
 
-Still in main/User_config.h, define the mqqt parameters of the receiving server. If you are using a standard emoncms configuration : 
+Still in main/User_config.h, define the mqqt parameters of the receiving server and give give the value `emon` to the database topic used by openMQTTgateway for data publication. If you are using a standard emoncms configuration : 
 ```
 /*-------------DEFINE YOUR MQTT PARAMETERS BELOW----------------*/
 char mqtt_user[20] = "emonpi"; // not compulsory only if your broker needs authentication
 char mqtt_pass[30] = "emonpimqtt2016"; // not compulsory only if your broker needs authentication
 char mqtt_server[40] = "192.168.1.27";
 char mqtt_port[6] = "1883";
+
+/*-------------DEFINE YOUR MQTT ADVANCED PARAMETERS BELOW----------------*/
+#define Base_Topic "emon/"
 ```
 
+On the raspberry running themis/emoncms, just check if your broker is receiving some datas :
+```
+mosquitto_sub -h localhost -t "#" -v -u emonpi -P emonpimqtt2016
+```
+try to simulate an intrusion with the DW1 sensor, the mosquitto_sub command should display the following datas
+```
+emon/OpenMQTTGateway_SRFB/SRFBtoMQTT {"raw":"2ED6019A04B0AC4E99","delay":1199,"val_Tlow":410,"val_Thigh":1200,"value":11292313}
+emon/OpenMQTTGateway_SRFB/SRFBtoMQTT/raw 2ED6019A04B0AC4E99
+emon/OpenMQTTGateway_SRFB/SRFBtoMQTT/delay 1199
+emon/OpenMQTTGateway_SRFB/SRFBtoMQTT/val_Tlow 410
+home/OpenMQTTGateway_SRFB/SRFBtoMQTT/val_Thigh 1200
+home/OpenMQTTGateway_SRFB/SRFBtoMQTT 11292313
+```
+if you do not have the mosquitto_sub command installed on your raspberry :
+```
+sudo apt-get install mosquitto-clients
+```
