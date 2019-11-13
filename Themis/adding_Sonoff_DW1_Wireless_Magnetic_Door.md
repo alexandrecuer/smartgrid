@@ -35,14 +35,7 @@ Before using esptool in cli you will need to connect the bridge to your computer
 4) And power the device either via the microUSB port or via the 3V3 pin on the same programming header
 
 ![connection to a UART2USB cable](assets/flashing.png)
-
-red : 3V
-
-black : ground
-
-yellow : RX from the bridge
-
-orange : TX from the bridge
+wire color codes are red : 3V, black : ground, yellow : RX, orange : TX from the bridge
 
 You can get the firmware size with the command `esptool flash_id`  
 ```
