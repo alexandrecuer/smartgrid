@@ -11,7 +11,7 @@ With minimal effort, it is possible to use the sonoff DW1 in Themis or Emoncms
 
 # adding a row of board to board connectors to use with an UART2USB programming cable
 before soldering 
-![before soldering](assets/before_soldering.jpg)
+![before soldering](assets/before_soldering_small.png)
 after soldering
 ![after soldering](assets/after_soldering.jpg)
 bottom view after soldering
