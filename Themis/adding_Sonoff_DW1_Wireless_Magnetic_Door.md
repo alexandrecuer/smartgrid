@@ -10,9 +10,12 @@ Some github projects focused on developping opensource firmwares for the Sonoff 
 With minimal effort, it is possible to use the sonoff DW1 in Themis or Emoncms
 
 # adding a row of board to board connectors to use with an UART2USB programming cable
-
-
-
+before soldering 
+![before soldering](assets/before_soldering.jpg)
+after soldering
+![after soldering](assets/after_soldering.jpg)
+bottom view after soldering
+![after soldering bottom view](assets/after_soldering_bottom_view.jpg)
 
 # backup the stock/factory firmware on the Sonoff RF bridge
 This part will use the esptool which you can install easily
@@ -30,6 +33,16 @@ Before using esptool in cli you will need to connect the bridge to your computer
 3) Press and hold the reset button
 
 4) And power the device either via the microUSB port or via the 3V3 pin on the same programming header
+
+![connection to a UART2USB cable](assets/connection_to_UART.jpg)
+
+red : 3V
+
+black : ground
+
+yellow : RX on the bridge
+
+orange : TX on the bridge
 
 You can get the firmware size with the command `esptool flash_id`  
 ```
