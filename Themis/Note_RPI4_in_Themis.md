@@ -7,3 +7,11 @@ As the Ethernet port has swapped from right to left, the inside of the faceplate
 ![full_view](assets/rpi4/RPI4_full_view_small.jpg)
 
 ![close_up](assets/rpi4/RPI4_close_up_small.jpg)
+
+## CPU temperature
+
+much higher on the RPI4 !
+
+![year](assets/rpi4/CPU_temp_full_year.jpg)
+
+![zoom](assets/rpi4/CPU_temp_zoom.jpg)
