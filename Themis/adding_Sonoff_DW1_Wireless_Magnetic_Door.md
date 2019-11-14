@@ -1,3 +1,5 @@
+# Adding a door/window sensor to Themis/Emoncms
+
 As I was developping Themis further on, Cerema teams requested the integration of window opening/closing sensors into the system, 
 in connection with their work on indoor air quality.
 Measuring indoor air quality without knowing whether windows are open or closed makes little sense.
