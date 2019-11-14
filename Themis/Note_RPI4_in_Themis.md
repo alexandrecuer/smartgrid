@@ -2,6 +2,8 @@
 
 RPI4 is now out and I've modified the EmonPi of one of my themis machine with a brand new RPI4
 
+As the Ethernet port has swapped from right to left, the inside of the faceplate was used on the outside, and an additional hole was made for the 433Mhz antenna
+
 ![full_view](assets/rpi4/RPI4_full_view_small.jpg)
 
 ![close_up](assets/rpi4/RPI4_close_up_small.jpg)
