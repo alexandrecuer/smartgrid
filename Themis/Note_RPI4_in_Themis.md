@@ -1,4 +1,4 @@
-# Themis running a RPI4
+# Themis/EmonCMS running a RPI4
 
 RPI4 is now out and I've modified the EmonPi of one of my themis machine with a brand new RPI4
 
