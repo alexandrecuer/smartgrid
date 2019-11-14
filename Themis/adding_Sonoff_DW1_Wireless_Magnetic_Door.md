@@ -15,7 +15,7 @@ These developments are based on the [rc-switch library](https://github.com/sui77
 
 With minimal effort, it is possible to use the sonoff DW1 in Themis or Emoncms
 
-# soldering pin header to connect a UART2USB programming cable
+## soldering pin header to connect a UART2USB programming cable
 before soldering 
 ![before soldering](assets/before_soldering_small.png)
 after soldering
@@ -23,7 +23,7 @@ after soldering
 bottom view after soldering
 ![after soldering bottom view](assets/after_soldering_bottom_view_small.png)
 
-# backup the stock/factory firmware on the Sonoff RF bridge
+## backup the stock/factory firmware on the Sonoff RF bridge
 This part will use the esptool which you can install easily
 ```
 pip install esptool
@@ -87,7 +87,7 @@ Image restoration can be achieved specifying the starting address:
 esptool --port COM4 write_flash 0x00000 esp-1MB-backup.bin
 ```
 
-# burn the OpenMQTTGateway firmware into the bridge
+## burn the OpenMQTTGateway firmware into the bridge
 The best choice to compile and burn the firmware is to use [Atom](https://atom.io/) and its integrated terminal platformio-ide-terminal. Indeed, platformIO takes care of all dependencies for you...
 
 In atom, open the folder named "OpenMQTTGateway", open the platformio.ini file and uncomment the rfbridge line
@@ -143,7 +143,7 @@ if you do not have the mosquitto_sub command installed on your raspberry :
 ```
 sudo apt-get install mosquitto-clients
 ```
-# Monitor in Themis / Emoncms
+## Monitor in Themis / Emoncms
 
 You should now see the sensor in emoncms :
 
