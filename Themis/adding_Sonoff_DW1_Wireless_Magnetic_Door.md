@@ -141,3 +141,12 @@ if you do not have the mosquitto_sub command installed on your raspberry :
 ```
 sudo apt-get install mosquitto-clients
 ```
+# Monitor in Themis / Emoncms
+
+You should now see the sensor in emoncms :
+
+![input_controller](assets/emoncms_input_controller.png)
+
+And be able to start a log to feed process in a variable interval timeseries (PHPimeSeries) :
+
+![log_to_feed](assets/log_to_feed_as_PHPtimeseries.png)
