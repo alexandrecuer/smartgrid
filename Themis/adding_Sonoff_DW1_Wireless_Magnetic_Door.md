@@ -86,7 +86,7 @@ esptool --port COM4 write_flash 0x00000 esp-1MB-backup.bin
 ```
 
 # burn the OpenMQTTGateway firmware into the bridge
-The best choice to compile and burn the firmware is to use Atom and its integrated terminal platformio-ide-terminal. Indeed, platformIO takes care of all dependencies for you...
+The best choice to compile and burn the firmware is to use [Atom](https://atom.io/) and its integrated terminal platformio-ide-terminal. Indeed, platformIO takes care of all dependencies for you...
 
 In atom, open the folder named "OpenMQTTGateway", open the platformio.ini file and uncomment the rfbridge line
 ```
