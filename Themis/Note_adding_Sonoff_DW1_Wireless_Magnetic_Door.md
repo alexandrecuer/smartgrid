@@ -152,3 +152,9 @@ You should now see the sensor in emoncms :
 And be able to start a log to feed process in a variable interval timeseries (PHPimeSeries) :
 
 ![log_to_feed](assets/log_to_feed_as_PHPtimeseries.png)
+
+![graph](assets/monitoring_example.png)
+
+Window openings appear in green, interior temperature measurements in red/orange and exterior temperature in blue
+
+The orange curve corresponds to a position of the sensor close to the ground, the red curves to high positions
