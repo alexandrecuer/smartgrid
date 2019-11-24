@@ -6,7 +6,6 @@ Check http://www.dromotherm.com
 ![le principe](doc/dromotherm_b.png)
 [Présentation du projet](doc/Clermont-co_Cerema_dromotherm.pdf)
 
-# Le projet DROMOSENSE
 ## The controller
 Artificial intelligence for energy management
 
