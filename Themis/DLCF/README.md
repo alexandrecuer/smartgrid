@@ -5,4 +5,6 @@ https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?orde
 
 [Anybus Communicator Manager (ACM)](hms-scm-1204-169.zip)
 
+## Sofrel S500
+
 
