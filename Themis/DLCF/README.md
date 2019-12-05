@@ -1,1 +1,1 @@
-config de la chaufferie du DLCF
+config/tools pour la chaufferie du DLCF
