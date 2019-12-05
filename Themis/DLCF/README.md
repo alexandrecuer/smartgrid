@@ -7,4 +7,6 @@ https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?orde
 
 ## Sofrel S500
 
+https://dromotherm.s3.eu-west-3.amazonaws.com/Setup_S500_v5.30.11.zip
+
 
