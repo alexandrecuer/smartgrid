@@ -40,12 +40,13 @@ http://www.kscada.com/modbusdoctor.html
 
 Type T
 
-Composition : cuivre / Constantan (alliage cuivre + nickel)
+Composition : copper / Constantan (copper + nickel)
 
-Usage continu de −185 °C à 300 °C ; usage intermittent de −250 °C à 400 °C4.
+From −185 °C to 300 °C ;
 
-Répétabilité exceptionnelle de +/-0,1 °C de −200 °C à 200 °C.
+accuracy  +/-0,1 °C from −200 °C to 200 °C.
 
-Forte conductivité thermique du cuivre.
-
-Couleurs selon CEI 584-3 : Gaine Marron / + Marron/ - Blanc
+CEI 584-3  
+> brown rubber sheath Marron
+> + brown
+> - white
