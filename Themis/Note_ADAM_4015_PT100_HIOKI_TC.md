@@ -67,7 +67,7 @@ module name 2|212|211 or D3h
 
 http://www.kscada.com/modbusdoctor.html
 
-# Using thermocouple
+# Using thermocouple (Seebeck effect)
 
 Type T
 
@@ -81,3 +81,40 @@ CEI 584-3
 > - brown rubber sheath
 > - brown = +
 > - white = -
+
+Using the HIOKI 8402-20 datalogger with a universal analog input unit LR8501
+
+![HIOKI_full_view](assets/FluidTemp/HIOKI8402.jpg)
+
+![HIOKI_TC connexion](assets/FluidTemp/HIOKI_connect_TC.jpg)
+
+Configure the HIOKI 8204 for DHCP and connect it to the smartflex via an ethernet cable
+
+Define a static DHCP lease for the HIOKI, using its MAC address :
+
+![smartflex LAN conf](assets/FluidTemp/HIOKI_smartflex_LAN_conf.jpg)
+
+use the specific Hioki socket interfacer for emonhub :
+
+```
+[[HiokiTCP]]  
+    Type = EmonHiokiTcpInterfacer
+    [[[init_settings]]]
+	    IP = 192.168.2.3   # ip address of client to retrieve data from
+	    port = 8802          # Portclient listens on
+    [[[runtimesettings]]]
+           pubchannels = ToEmonCMS,
+           nodeId = 1
+           interval = 10
+```
+
+node configuration
+
+```
+[[1]]
+    nodename = Hioki8402
+    [[[rx]]]
+       names = TC1,TC2,TC3
+       channels = 1,1,1
+       voice = 1,2,3
+```
