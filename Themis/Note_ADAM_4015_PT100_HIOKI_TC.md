@@ -47,6 +47,6 @@ From −185 °C to 300 °C ;
 accuracy  +/-0,1 °C from −200 °C to 200 °C.
 
 CEI 584-3  
-> brown rubber sheath Marron
+> brown rubber sheath
 > + brown
 > - white
