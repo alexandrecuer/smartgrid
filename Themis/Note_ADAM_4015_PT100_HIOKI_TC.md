@@ -1,8 +1,11 @@
 
 # Using PT 100 and ADAM 4015
 
-Using and ohmmeter, you first check where is the resistance
-![RS485network with PT100](assets/FluidTemp/connect_ADAM4015_to_SmartFlex4GRouter.png)
+Using and ohmmeter, find the wires between which a resistance is present
+
+![Adam4015&PT100](assets/FluidTemp/connectPT100_to_ADAM4015.png)
+
+![Adam4015&Smartflex](assets/FluidTemp/connect_ADAM4015_to_SmartFlex4GRouter.png)
 
 ## 3 wires
 
