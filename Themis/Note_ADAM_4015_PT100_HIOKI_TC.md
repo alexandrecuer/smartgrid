@@ -7,16 +7,6 @@ Using and ohmmeter, find the wires between which a resistance is present
 
 ![Adam4015&Smartflex](assets/FluidTemp/connect_ADAM4015_to_SmartFlex4GRouter.png)
 
-## 3 wires
-
-resistance is between yellow and green
-
-blue wire : COM
-
-yellow wire : RTD -
-
-green wire : RTD +
-
 
 # Using thermocouple
 
