@@ -84,6 +84,8 @@ CEI 584-3
 
 Using the HIOKI 8402-20 datalogger with a universal analog input unit LR8501
 
+https://www.hioki.com/en/products/detail/?product_key=5613
+
 ![HIOKI_full_view](assets/FluidTemp/HIOKI8402.jpg)
 
 ![HIOKI_TC connexion](assets/FluidTemp/HIOKI_connect_TC.jpg)
