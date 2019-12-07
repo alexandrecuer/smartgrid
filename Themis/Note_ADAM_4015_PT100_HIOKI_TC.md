@@ -24,6 +24,20 @@ After the device discovered, choose modbus for the protocol, 19.2 Kbps for the b
 
 ## emonhub configuration
 
+create a modbusTCPinterfacer
+```
+[[ModbusTCP]]
+    Type = EmonModbusTcpInterfacer
+    [[[init_settings]]]
+        modbus_IP = 192.168.1.1
+        modbus_port = 503
+    [[[runtimesettings]]]
+        nodeId = 11
+        pubchannels = ToEmonCMS,
+        # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
+        interval = 10
+```
+
 node section example in emonhub :
 
 ```
