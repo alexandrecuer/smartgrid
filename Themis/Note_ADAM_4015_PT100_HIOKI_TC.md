@@ -20,7 +20,7 @@ connect all the wires on the green terminal block, connect to power and and plug
 
 ### Configure with ADAM utility
 
-After the device discovered, choose modbus for the protocol, 19.2 Kbps for the baudrate and press update
+After the device discovered, fix the address if you have more than 1 element on your modbus network, choose modbus for the protocol, 19.2 Kbps for the baudrate and press update
 
 ![Adam4015_Init1](assets/FluidTemp/INIT_MODE_ADAM4015_1.png)
 
