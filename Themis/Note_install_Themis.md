@@ -54,11 +54,11 @@ cd install
 
 change emonsd.config.ini with the following lines
 ```
-emoncms_core_branch=themis
+emoncms_core_branch=themis or themis_uptodate
 emonhub_branch=modbusTCPinterfacer_multinodes_env_example
 ```
 ```
-symlinked_emoncms_modules[postprocess]=themis or themis_uptodate
+symlinked_emoncms_modules[postprocess]=themis
 ```
 ```
 git_repo[emoncms_core]=https://github.com/alexandrecuer/emoncms.git
