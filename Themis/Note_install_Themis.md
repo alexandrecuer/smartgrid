@@ -58,7 +58,7 @@ emoncms_core_branch=themis
 emonhub_branch=modbusTCPinterfacer_multinodes_env_example
 ```
 ```
-symlinked_emoncms_modules[postprocess]=themis
+symlinked_emoncms_modules[postprocess]=themis or themis_uptodate
 ```
 ```
 git_repo[emoncms_core]=https://github.com/alexandrecuer/emoncms.git
