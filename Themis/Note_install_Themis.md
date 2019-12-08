@@ -52,7 +52,15 @@ cd EmonScripts
 cd install
 ```
 
-change emonsd.config.ini with the following lines
+### option 1
+```
+rm emonsd.config.ini
+wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/themis/emonsd.config.ini
+```
+
+### option 2
+
+manually change emonsd.config.ini with the following lines
 ```
 emoncms_core_branch=themis or themis_uptodate
 emonhub_branch=modbusTCPinterfacer_multinodes_env_example
@@ -70,7 +78,7 @@ git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
 # emonhub
 git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
 ```
-launch the scripts
+### launch the scripts
 ```
 ./main.sh
 ```
