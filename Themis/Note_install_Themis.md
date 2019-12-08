@@ -55,7 +55,7 @@ cd install
 ### option 1
 ```
 rm emonsd.config.ini
-wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/themis/emonsd.config.ini
+wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/Themis/emonsd.config.ini
 ```
 
 ### option 2
