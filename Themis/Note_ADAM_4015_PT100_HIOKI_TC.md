@@ -16,7 +16,7 @@ GND terminal
 
 ![Adam4015_Moxa](assets/FluidTemp/configure_ADAM4015_w_moxa.png)
 
-connect all the wires on the green terminal block, connect to power and and plug the block in the module, with the switch in INIT mode
+connect all the wires on the green terminal block, plug the block in the module, with the switch in INIT mode an power on !
 
 ### Configure with ADAM utility
 
