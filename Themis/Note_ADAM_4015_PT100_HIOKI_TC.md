@@ -1,26 +1,34 @@
 
 # Using PT 100 and ADAM 4015
 
-## connexions
+## connect PT100 to ADAM4015
 
 Using and ohmmeter, find the wires between which a resistance is present
 
 ![Adam4015&PT100](assets/FluidTemp/connectPT100_to_ADAM4015.png)
 
-![Adam4015&Smartflex](assets/FluidTemp/connect_ADAM4015_to_SmartFlex4GRouterb.png)
-
-## ADAM4015 configuration for operation on a RS485 network
+## Configure ADAM4015 for operation on a RS485 network
 
 ### Init mode
 
 Booting the ADAM4015 in Init mode can be done by using the specific switch on recent models or by connecting the init terminal to the
 GND terminal
 
+![Adam4015_Moxa](assets/FluidTemp/configure_ADAM4015_w_moxa.png)
+
+connect all the wires on the green terminal block, connect to power and and plug the block in the module, with the switch in INIT mode
+
+## Configure with ADAM utility
+
 After the device discovered, choose modbus for the protocol, 19.2 Kbps for the baudrate and press update
 
 ![Adam4015_Init1](assets/FluidTemp/INIT_MODE_ADAM4015_1.png)
 
 ![Adam4015_Init2](assets/FluidTemp/INIT_MODE_ADAM4015_2.png)
+
+## connect ADAM4015 to Smartflex
+
+![Adam4015&Smartflex](assets/FluidTemp/connect_ADAM4015_to_SmartFlex4GRouterb.png)
 
 ## emonhub configuration
 
