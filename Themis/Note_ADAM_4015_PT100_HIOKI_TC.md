@@ -18,7 +18,7 @@ GND terminal
 
 connect all the wires on the green terminal block, connect to power and and plug the block in the module, with the switch in INIT mode
 
-## Configure with ADAM utility
+### Configure with ADAM utility
 
 After the device discovered, choose modbus for the protocol, 19.2 Kbps for the baudrate and press update
 
@@ -27,6 +27,10 @@ After the device discovered, choose modbus for the protocol, 19.2 Kbps for the b
 ![Adam4015_Init2](assets/FluidTemp/INIT_MODE_ADAM4015_2.png)
 
 ## connect ADAM4015 to Smartflex
+
+Go back to normal mode and test if communication is OK for example with modbusdoctor
+
+http://www.kscada.com/modbusdoctor.html
 
 ![Adam4015&Smartflex](assets/FluidTemp/connect_ADAM4015_to_SmartFlex4GRouterb.png)
 
@@ -72,8 +76,6 @@ channel 6|7|6
 channel 7|8|7
 module name 1|211|210 or D2h
 module name 2|212|211 or D3h
-
-http://www.kscada.com/modbusdoctor.html
 
 # Using thermocouple (Seebeck effect)
 
