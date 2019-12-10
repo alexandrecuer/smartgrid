@@ -23,6 +23,13 @@ FB type:            0x0083
 \>
 
 ```
+
+9600 bit/s
+, 8 databits
+, Parity : none
+, stopbits : 1
+, RS232
+
 ### Anybus IPconf for operation with smartflex
 
 ![Anybus IPconf for operation with smartflex](Anybus_IPconfig_on_smartflex.png)
