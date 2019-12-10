@@ -7,6 +7,7 @@ https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?orde
 
 ![Anybus IPconf for operation with smartflex](Anybus_IPconfig_on_smartflex.png)
 
+[cfg+cfx files for Anybus 7007 - operation on themis machine DLCF boiler room - 10/12/2019](VANTAGE_HMS_10_12_2019.zip)
 
 in order to get the mac address of the module, once connected to a network with 192.168.4.3 as IP address, open a telnet session `telnet 192.169.4.3` and issue the command `version`
 
