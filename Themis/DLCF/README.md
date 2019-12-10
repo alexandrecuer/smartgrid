@@ -5,6 +5,9 @@ https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?orde
 
 [Anybus Communicator Manager (ACM)](hms-scm-1204-169.zip)
 
+![Anybus IPconf for operation with smartflex](Anybus_IPconfig_on_smartflex.png)
+
+
 in order to get the mac address of the module, once connected to a network with 192.168.4.3 as IP address, open a telnet session `telnet 192.169.4.3` and issue the command `version`
 
 ```
