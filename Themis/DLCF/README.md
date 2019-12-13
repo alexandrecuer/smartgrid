@@ -2,6 +2,9 @@
 
 ![DLCF boiler room](DLCF_boiler_room.jpg)
 
+![Ecosystem map](ecosysteme_DLCF_boiler_room.jpg)
+
+
 ## Anybus AB7007
 https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
 
