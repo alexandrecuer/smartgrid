@@ -1,7 +1,9 @@
-Check 
-[dromotherm.com](http://www.dromotherm.com)
 
-# Le projet DROMOTHERM
+
+# the DROMOTHERM project
+
+Check [dromotherm.com](http://www.dromotherm.com)
+
 ## The physics
 
 ![le principe](doc/dromotherm_b.png)
@@ -12,9 +14,11 @@ Artificial intelligence for energy management
 
 [DROMOSENSE - le premier brouillon](doc/smart_grid_version_test_15_01_2017.pdf)
 
-[produire des documents tek sous github avec pandoc](doc/pandoc_tek_producing.md)
-
-## the Themis project
+# the Themis project
 
 [Install Themis](Themis/Note_install_Themis.md)
+
+# miscellaneous
+
+[produire des documents tek sous github avec pandoc](doc/pandoc_tek_producing.md)
 
