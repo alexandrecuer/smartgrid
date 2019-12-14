@@ -1,4 +1,6 @@
-# themis installation
+---
+title: Themis/EmonCMS - Scripted Installation	
+---
 
 ## prepare the SD card
 

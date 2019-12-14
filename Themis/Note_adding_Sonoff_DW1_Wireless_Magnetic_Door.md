@@ -1,4 +1,6 @@
-# Adding a door/window sensor to Themis/Emoncms
+---
+title: Themis/EmonCMS - Using a door/window sensor
+---
 
 As I was developping Themis further on, Cerema teams requested the integration of window opening/closing sensors into the system, 
 in connection with their work on indoor air quality.
@@ -143,7 +145,7 @@ if you do not have the mosquitto_sub command installed on your raspberry :
 ```
 sudo apt-get install mosquitto-clients
 ```
-## Monitor in Themis / Emoncms
+## Monitor in Themis/EmonCMS
 
 You should now see the sensor in emoncms :
 

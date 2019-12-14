@@ -1,7 +1,9 @@
+---
+title: Themis/EmonCMS - Install on raspbian stretch from scratch using the scripts	
+---
+
 This is variant illustrating on a Windows workstation how to use a Linux VM to prepare more completely the SD card
 
-
-# Install emoncms on raspbian stretch from scratch using the scripts	
 
 ## preparation if you only have a windows workstation with a linux virtual machine on it
 

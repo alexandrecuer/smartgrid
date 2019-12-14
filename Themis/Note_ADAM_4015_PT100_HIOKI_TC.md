@@ -1,17 +1,17 @@
 ---
-title: Themis/EmonCMS and measuring temperature flows
+title: Themis/EmonCMS - measuring fluids'temperature
 ---
-# Using PT 100 and ADAM 4015
+## Using PT 100 and ADAM 4015
 
-## connect PT100 to ADAM4015
+### connect PT100 to ADAM4015
 
 Using and ohmmeter, find the wires between which a resistance is present
 
 ![Adam4015&PT100](assets/FluidTemp/connectPT100_to_ADAM4015.png)
 
-## Configure ADAM4015 for operation on a RS485 network
+### Configure ADAM4015 for operation on a RS485 network
 
-### Init mode
+#### Init mode
 
 Booting the ADAM4015 in Init mode can be done by using the specific switch on recent models or by connecting the init terminal to the
 GND terminal
@@ -20,7 +20,7 @@ GND terminal
 
 connect all the wires on the green terminal block, plug the block in the module, with the switch in INIT mode and power on !
 
-### Configure with ADAM utility
+#### Configure with ADAM utility
 
 After the device discovered, fix the address if you have more than 1 element on your modbus network, choose modbus for the protocol, 19.2 Kbps for the baudrate and press update
 
@@ -28,7 +28,7 @@ After the device discovered, fix the address if you have more than 1 element on 
 
 ![Adam4015_Init2](assets/FluidTemp/INIT_MODE_ADAM4015_2.png)
 
-## connect ADAM4015 to Smartflex
+### connect ADAM4015 to Smartflex
 
 Go back to normal mode and test if communication is OK for example with modbusdoctor
 
@@ -36,7 +36,7 @@ http://www.kscada.com/modbusdoctor.html
 
 ![Adam4015&Smartflex](assets/FluidTemp/connect_ADAM4015_to_SmartFlex4GRouterb.png)
 
-## emonhub configuration
+### emonhub configuration
 
 create a modbusTCPinterfacer
 ```
@@ -79,7 +79,7 @@ channel 7|8|7
 module name 1|211|210 or D2h
 module name 2|212|211 or D3h
 
-# Using thermocouple (Seebeck effect)
+## Using thermocouple (Seebeck effect)
 
 Type T
 
