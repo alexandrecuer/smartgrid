@@ -16,7 +16,7 @@ Artificial intelligence for energy management
 
 # the Themis project
 
-[Install Themis](Themis/Note_install_Themis.md)
+[check the technical website](http://dromotherm.github.io/documentation)
 
 # miscellaneous
 
