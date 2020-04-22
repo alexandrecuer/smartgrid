@@ -1,6 +1,6 @@
 # kit of datasets collected from the field
 
-All datasets ar in emoncms format
+All datasets are in emoncms format
 
 All data stored in .dat file are 4 bytes (32 bits) float
 
