@@ -6,6 +6,13 @@ permalink: ceremacf.html
 
 ## [Cerema Clermont-Ferrand boiling room](emoncms-backup-2020-04-22.tar.gz)
 
+to unpack :
+
+```
+wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/datasets/emoncms-backup-2020-04-22.tar.gz
+tar -xvf emoncms-backup-2020-04-22.tar.gz
+```
+
 hot water circuits !! collected during winter 2019-2020 before COVID 19 spreading in Europe
 
 3 circuits monitored :
