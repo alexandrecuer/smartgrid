@@ -7,6 +7,13 @@ permalink: allierhab.html
 
 ## [Allier habitat dataset](emoncms-backup-2019-08-19.tar.gz)
 
+to unpack :
+
+```
+wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/datasets/emoncms-backup-2019-08-19.tar.gz
+tar -xvf emoncms-backup-2019-08-19.tar.gz
+```
+
 electric heating !!
 
 House|	label|	Feed Number|	StartTime<br>unixTimestamp<br>(s)|	StartTime<br>human |	interval<br>(s)	|unit
