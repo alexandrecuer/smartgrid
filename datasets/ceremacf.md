@@ -2,7 +2,7 @@
 layout: default
 permalink: ceremacf.html
 ---
-
+![site](images/DLCF_boiler_room.jpg)
 
 ## [Cerema Clermont-Ferrand boiling room](emoncms-backup-2020-04-22.tar.gz)
 
