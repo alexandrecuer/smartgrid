@@ -3,6 +3,7 @@ layout: default
 permalink: allierhab.html
 ---
 
+![images/allierhab.jpg](site)
 
 ## [Allier habitat dataset](emoncms-backup-2019-08-19.tar.gz)
 
