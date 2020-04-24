@@ -18,6 +18,8 @@ Artificial intelligence for energy management
 
 [check the technical website](http://dromotherm.github.io/documentation)
 
+[The Themis datasets](datasets/README.md)
+
 # miscellaneous
 
 [produire des documents tek sous github avec pandoc](doc/pandoc_tek_producing.md)
