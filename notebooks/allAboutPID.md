@@ -15,7 +15,7 @@ https://www.robot-maker.com/forum/tutorials/article/12-asservissement-et-regulat
 
 Notons $e(t)$ l'erreur commise par le système à asservir, $w(t)$ la consigne et $y(t)$ la mesure de la grandeur réglée
 
-On a : $$e(t) = w(t) - y(t)$$
+On a : \\( e(t) = w(t) - y(t) \\)
 
 $v(t)$ est la perturbation qui affecte le système à asservir
 
