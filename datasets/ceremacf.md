@@ -45,7 +45,7 @@ south|pump on/off | 37 | 10
 south|3-way valve closing | 38 | 10
 south|3-way valve opening | 39 | 10
 
-circuits temperatures in °C |	Feed Number
+circuits temperatures in °C |	Feed Number | interval (s)
 --|--
 T initial cellules | 25 | 10
 T return cellules | 29 | 10
