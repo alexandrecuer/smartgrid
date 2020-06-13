@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: ceremacf_old.html
+---
+
 feed number|label|interval (s)
 --|--|--
 15 | T circ cellule |10
