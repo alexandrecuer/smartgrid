@@ -19,7 +19,7 @@ it contains 16 bytes
 - 4 bytes	Interval – unsigned integer
 - 4 bytes	start time – unsigned integer
 
-if you are on linux, download ![Hexditor](http://flying.guy.chez-alice.fr/HexditorFr.php)
+You may need an editor to perform such a manual check. On a linux OS, [Hexditor](http://flying.guy.chez-alice.fr/HexditorFr.php) is a cool choice :-)
 
 most sets can be restored on an EmonPI
 
