@@ -24,6 +24,8 @@ You may need an editor to perform such a manual check. On a linux OS, [Hexditor]
 ## Exemple of a meta file opening 
 On this exemple, the timeserie starts at 1526978160, unix time stamp, which is Tuesday, 22-May-2018 08:36:00 UTC, with a recordng interval of 120 s
 
+**Please note endianness is Little Endian (LE)**
+
 ![meta2](images/meta2.png)
 
 ![meta1](images/meta1.png)
