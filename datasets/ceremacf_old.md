@@ -3,6 +3,12 @@ layout: default
 permalink: ceremacf_old.html
 ---
 
+To unpack :
+```
+wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/datasets/emoncms-backup-2018-03-29.tar.gz
+tar -xvf emoncms-backup-2018-03-29.tar.gz
+```
+
 feed number|label|interval (s)
 --|--|--
 15 | T circ cellule |10
@@ -51,40 +57,38 @@ feed number|label|interval (s)
 84 | ReSynAck GREI_Sebastien
 82 | nbTimeOut GCM_ECA
 83 | nbTimeOut GREI_Sebastien
-92 | Cellule_Pompe
+92 | Cellule_Pompe |10
 75 | RcvPkts GCM_SOA
 76 | Dropped GCM_SOA
-95 | Nord_Pompe
-96 | Nord_V3V_FER
-97 | Nord_V3V_OUV
-98 | Sud_Pompe
-99 | Sud_V3V_FER
-100 | Sud_V3V_OUV
-101 | SSHall_Pompe
-102 | SSHall_V3V_FER
-103 | SSHal_V3V_OUV
-104 | Est_Pompe
-105 | Est_V3V_FER
-106 | Est_V3V_OUV
-107 | Ouest_Pompe
-108 | Ouest_V3V_FER
-109 | Ouest_V3V_OUV
-110 | node:chaudiere:EtatC1
-111 | node:chaudiere:Consigne
-112 | node:chaudiere:ConsigneC1
-113 | node:chaudiere:EtatC2
-114 | node:chaudiere:ConsigneC2
-115 | VAN_pr_atm
-116 | VAN_T_int
-117 | VAN_HR_int
-118 | VAN_Text
-119 | VAN_HR_ext
-120 | VAN_UV
-121 | VAN_ray_sol
-122 | VAN_precip
-123 | VAN_vitesse_vent
-124 | node:chaudiere:EtatC3
-125 | node:chaudiere:ConsigneC3
-126 | VAN_precip_mmh
-127 | temp_ext_Escurolles_wunder
-128 | HR_ext_Escurolles_wunder
+95 | Nord_Pompe |10
+96 | Nord_V3V_FER |10
+97 | Nord_V3V_OUV |10
+98 | Sud_Pompe |10
+99 | Sud_V3V_FER |10
+100 | Sud_V3V_OUV |10
+101 | SSHall_Pompe |10
+102 | SSHall_V3V_FER |10
+103 | SSHal_V3V_OUV |10
+104 | Est_Pompe |10
+105 | Est_V3V_FER |10
+106 | Est_V3V_OUV |10
+107 | Ouest_Pompe |10
+108 | Ouest_V3V_FER |10
+109 | Ouest_V3V_OUV |10
+110 | node:chaudiere:EtatC1 |10
+111 | node:chaudiere:Consigne |10
+112 | node:chaudiere:ConsigneC1 |10
+113 | node:chaudiere:EtatC2 |10
+114 | node:chaudiere:ConsigneC2 |10
+115 | VAN_pr_atm |10
+116 | VAN_T_int |10
+117 | VAN_HR_int |10
+118 | VAN_Text |10
+119 | VAN_HR_ext |10
+120 | VAN_UV |10
+121 | VAN_ray_sol |10
+122 | VAN_precip |10
+123 | VAN_vitesse_vent |10
+124 | node:chaudiere:EtatC3 |10
+125 | node:chaudiere:ConsigneC3 |10
+126 | VAN_precip_mmh |10
