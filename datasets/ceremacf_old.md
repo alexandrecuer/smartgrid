@@ -8,7 +8,7 @@ To unpack :
 wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/datasets/emoncms-backup-2018-03-29.tar.gz
 tar -xvf emoncms-backup-2018-03-29.tar.gz
 ```
-
+## heating systems
 feed number|label|interval (s)
 --|--|--
 15 | T circ cellule |10
@@ -23,43 +23,10 @@ feed number|label|interval (s)
 17 | circ_ssolhall |10
 18 | circ_est |10
 19 | circ_ouest |10
-27 | RH_satellite_ECA
-26 | temp_satellite_ECA
-30 | millis recording
-31 | temp_chateau
-32 | RH_chateau
-33 | temp1_satellite_GCM_SOA
-34 | temp2_satellite_GCM_SOA
-35 | RH_satellite_B_GCM_SOA
-43 | TH_bureau_sebastienL
-42 | temp2_bureau_sebastienL
-41 | temp1_bureau_sebastienL
-44 | _nbrexmit Node No1wireBus
-47 | ReSynAck Node No1wireBus
-52 | timeout GCM_SOA
-49 | nbRST Node No1wireBus
-50 | ReData Node No1wireBus
-51 | ReFinAck Node No1wireBus
-53 | ReSynAck GCM_SOA
-54 | ReData GCM_SOA
-55 | ReFinAck GCM_SOA
-91 | Tcollecteur
-86 | ReFinAck GREI_Sebastien
-93 | Cellule_V3V_FER
-85 | ReData GREI_Sebastien
-64 | _millis GCM_SOA
-94 | Cellule_V3V_OUV
-68 | _millis GREI_Sebastien
-66 | _millis chateau
-79 | ReSynAck GCM_ECA
-80 | ReData GCM_ECA
-81 | ReFinAck GCM_ECA
-84 | ReSynAck GREI_Sebastien
-82 | nbTimeOut GCM_ECA
-83 | nbTimeOut GREI_Sebastien
+91 | Tcollecteur |10
 92 | Cellule_Pompe |10
-75 | RcvPkts GCM_SOA
-76 | Dropped GCM_SOA
+93 | Cellule_V3V_FER |10
+94 | Cellule_V3V_OUV |10
 95 | Nord_Pompe |10
 96 | Nord_V3V_FER |10
 97 | Nord_V3V_OUV |10
@@ -92,3 +59,60 @@ feed number|label|interval (s)
 124 | node:chaudiere:EtatC3 |10
 125 | node:chaudiere:ConsigneC3 |10
 126 | VAN_precip_mmh |10
+
+## offices
+
+Most recordings were done when trying to debug the tcp client of the ethersia library
+
+### ECA
+feed number|label|interval (s)
+--|--|--
+26 | temp_satellite_ECA |30
+27 | RH_satellite_ECA |30
+30 | millis recording |30
+79 | ReSynAck GCM_ECA |30
+80 | ReData GCM_ECA |30
+81 | ReFinAck GCM_ECA |30
+82 | nbTimeOut GCM_ECA |30
+
+### chateau
+feed number|label|interval (s)
+--|--|--
+31 | temp_chateau |30
+32 | RH_chateau |30
+66 | _millis chateau |30
+
+### SOA
+feed number|label|interval (s)
+--|--|--
+33 | temp1_satellite_GCM_SOA |30
+34 | temp2_satellite_GCM_SOA |30
+35 | RH_satellite_B_GCM_SOA |30
+52 | timeout GCM_SOA |30
+53 | ReSynAck GCM_SOA |30
+54 | ReData GCM_SOA |30
+55 | ReFinAck GCM_SOA |30
+64 | _millis GCM_SOA |30
+75 | RcvPkts GCM_SOA |30
+76 | Dropped GCM_SOA |30
+
+### GREI
+feed number|label|interval (s)
+--|--|--
+41 | temp1_bureau_sebastienL |30
+42 | temp2_bureau_sebastienL |30
+43 | TH_bureau_sebastienL |30
+68 | _millis GREI_Sebastien |30
+83 | nbTimeOut GREI_Sebastien |30
+84 | ReSynAck GREI_Sebastien |30
+85 | ReData GREI_Sebastien |30
+86 | ReFinAck GREI_Sebastien |30
+
+### 1 wire bus
+feed number|label|interval (s)
+--|--|--
+44 | _nbrexmit Node No1wireBus |30
+47 | ReSynAck Node No1wireBus |30
+49 | nbRST Node No1wireBus |30
+50 | ReData Node No1wireBus |30
+51 | ReFinAck Node No1wireBus |30
