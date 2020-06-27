@@ -46,4 +46,4 @@ php emoncmsdbupdate.php
 
 ## python library
 
-http://github.com/alexandrecuer/tf_works/tree/master/BIOS
+[check this link](http://github.com/alexandrecuer/tf_works/tree/master/BIOS) : work in progress
