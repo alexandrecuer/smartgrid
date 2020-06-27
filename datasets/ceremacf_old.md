@@ -3,6 +3,10 @@ layout: default
 permalink: ceremacf_old.html
 ---
 
+My very first dataset, collected from january 2017 to july 2019
+
+A lot of gaps in the data
+
 To unpack :
 ```
 wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/datasets/emoncms-backup-2018-03-29.tar.gz
@@ -65,6 +69,7 @@ feed number|label|interval (s)
 Most recordings were done when trying to debug the tcp client of the ethersia library
 
 ### ECA
+heated through circuit cellules
 feed number|label|interval (s)
 --|--|--
 26 | temp_satellite_ECA |30
@@ -76,6 +81,7 @@ feed number|label|interval (s)
 82 | nbTimeOut GCM_ECA |30
 
 ### chateau
+heated through circuit Est/Ouest
 feed number|label|interval (s)
 --|--|--
 31 | temp_chateau |30
@@ -83,6 +89,7 @@ feed number|label|interval (s)
 66 | _millis chateau |30
 
 ### SOA
+heated through circuit cellules
 feed number|label|interval (s)
 --|--|--
 33 | temp1_satellite_GCM_SOA |30
@@ -97,6 +104,7 @@ feed number|label|interval (s)
 76 | Dropped GCM_SOA |30
 
 ### GREI
+heated through circuit cellules
 feed number|label|interval (s)
 --|--|--
 41 | temp1_bureau_sebastienL |30
