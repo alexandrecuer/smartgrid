@@ -32,10 +32,10 @@ On this exemple, the timeserie starts at 1526978160, unix time stamp, which is T
 
 ## operation
 
-most sets can be restored on an EmonPI. 
+Most sets can be restored on an EmonPI. 
 The EmonPI is a very cheap and efficient data monitoring and managing platform. [Buy it here](https://shop.openenergymonitor.com/emonpi/)
 
-when restoring sets coming from deprecated versions of emoncms, a database update can be necessary
+When restoring sets coming from deprecated versions of emoncms, a database update can be necessary
 
 Once connected through SSH :
 
@@ -46,3 +46,4 @@ php emoncmsdbupdate.php
 
 ## python library
 
+http://github.com/alexandrecuer/tf_works/tree/master/BIOS
