@@ -2,7 +2,7 @@
 layout: default
 permalink: filesystem.html
 ---
-# kit of datasets collected from the field
+# kits of datasets collected from the field
 
 All datasets are in [emoncms](http://github.com/emoncms/emoncms) format
 
