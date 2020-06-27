@@ -37,10 +37,12 @@ The EmonPI is a very cheap and efficient data monitoring and managing platform. 
 
 when restoring sets coming from deprecated versions of emoncms, a database update can be necessary
 
-'''
+Once connected through SSH :
+
+```
 cd /opt/openenergymonitor/EmonScripts/common
-php 
-'''
+php emoncmsdbupdate.php
+```
 
 ## python library
 
