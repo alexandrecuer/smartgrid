@@ -46,4 +46,6 @@ php emoncmsdbupdate.php
 
 ## python library
 
+If you don't have an EmonPI, no problem. A simple computer with python will be sufficient to operate the datasets.
+
 [check this link](http://github.com/alexandrecuer/tf_works/tree/master/BIOS) : work in progress
