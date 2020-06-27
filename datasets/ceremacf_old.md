@@ -15,9 +15,9 @@ tar -xvf emoncms-backup-2018-03-29.tar.gz
 
 ## heating systems
 
-Datas coming from the vantage meteo station are labelled with the prefix VAN. The radio signal was often fussy
+Datas coming from the vantage meteo station are labelled with the prefix VAN. The radio signal was often of poor quality and the VAN feeds are disturbed by spikes.
 
-It was before I introduced into emoncms the ability to edit manually feeds
+It was before I introduced into emoncms the ability to edit manually feeds.
 
 feed number|label|interval (s)
 --|--|--
@@ -72,7 +72,9 @@ feed number|label|interval (s)
 
 ## offices
 
-Most recordings were done when trying to debug the tcp client of the ethersia library
+Most recordings were done when trying to debug the tcp client of the ethersia library (IPV6).
+
+Some feeds were only used to check the quality of packets transmissions between sensors shipping with the ethersia library and the emoncms server.
 
 ### ECA
 
