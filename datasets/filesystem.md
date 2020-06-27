@@ -32,7 +32,15 @@ On this exemple, the timeserie starts at 1526978160, unix time stamp, which is T
 
 ## operation
 
-most sets can be restored on an EmonPI. The EmonPI is a very cheap and efficient data monitoring and managing platform. [Buy it here](https://shop.openenergymonitor.com/emonpi/)
+most sets can be restored on an EmonPI. 
+The EmonPI is a very cheap and efficient data monitoring and managing platform. [Buy it here](https://shop.openenergymonitor.com/emonpi/)
+
+when restoring sets coming from deprecated versions of emoncms, a database update can be necessary
+
+'''
+cd /opt/openenergymonitor/EmonScripts/common
+php 
+'''
 
 ## python library
 
