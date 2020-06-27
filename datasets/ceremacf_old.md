@@ -12,7 +12,13 @@ To unpack :
 wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/datasets/emoncms-backup-2018-03-29.tar.gz
 tar -xvf emoncms-backup-2018-03-29.tar.gz
 ```
+
 ## heating systems
+
+Datas coming from the vantage meteo station are labelled with the prefix VAN. The radio signal was often fussy
+
+It was before I introduced into emoncms the ability to edit manually feeds
+
 feed number|label|interval (s)
 --|--|--
 15 | T circ cellule |10
@@ -69,7 +75,9 @@ feed number|label|interval (s)
 Most recordings were done when trying to debug the tcp client of the ethersia library
 
 ### ECA
+
 heated through circuit cellules
+
 feed number|label|interval (s)
 --|--|--
 26 | temp_satellite_ECA |30
@@ -81,7 +89,9 @@ feed number|label|interval (s)
 82 | nbTimeOut GCM_ECA |30
 
 ### chateau
+
 heated through circuit Est/Ouest
+
 feed number|label|interval (s)
 --|--|--
 31 | temp_chateau |30
@@ -89,7 +99,9 @@ feed number|label|interval (s)
 66 | _millis chateau |30
 
 ### SOA
+
 heated through circuit cellules
+
 feed number|label|interval (s)
 --|--|--
 33 | temp1_satellite_GCM_SOA |30
@@ -104,7 +116,9 @@ feed number|label|interval (s)
 76 | Dropped GCM_SOA |30
 
 ### GREI
+
 heated through circuit cellules
+
 feed number|label|interval (s)
 --|--|--
 41 | temp1_bureau_sebastienL |30
@@ -117,6 +131,7 @@ feed number|label|interval (s)
 86 | ReFinAck GREI_Sebastien |30
 
 ### 1 wire bus
+
 feed number|label|interval (s)
 --|--|--
 44 | _nbrexmit Node No1wireBus |30
