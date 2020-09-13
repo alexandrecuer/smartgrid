@@ -2,6 +2,7 @@
 layout: default
 permalink: allierhab.html
 ---
+# Allier Habitat
 
 ![site](images/allierhab.jpg)
 
