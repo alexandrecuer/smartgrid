@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: filesystem.html
-title: Datasets file system overview
 ---
+# Datasets file system overview
 
 All datasets are in [emoncms](http://github.com/emoncms/emoncms) format
 
