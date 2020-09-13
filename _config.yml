@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
-title: the internet of energy
+# previoulsy called the internet of energy
+title: FREE datasets for datascientists
 description: data as a fluid
 root: smartgrid
 url: http://alexandrecuer.github.io/smartgrid
