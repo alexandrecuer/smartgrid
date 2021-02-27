@@ -7,9 +7,9 @@ permalink: pid.html
 
 [wikipedia automatique](https://fr.wikipedia.org/wiki/Automatique)
 
-https://fr.wikipedia.org/wiki/R%C3%A9gulateur_PID
+[wikipedia régulateur PID](https://fr.wikipedia.org/wiki/R%C3%A9gulateur_PID)
 
-https://www.robot-maker.com/forum/tutorials/article/12-asservissement-et-regulation/
+[tutoriel régulation et asservissement](https://www.robot-maker.com/forum/tutorials/article/12-asservissement-et-regulation/)
 
 ![](closed_loop.png)
 
@@ -38,7 +38,7 @@ En effet, on montre par intégration par partie que :
 - le Laplacien de l'intégale d'une fonction f vaut $\frac{1}{p}$ fois le laplacien de f
 - le laplacien de la dérivée d'une fonction f vaut $p$ fois le laplacien de la fonction f, à une constante près
 
-cf https://fr.wikipedia.org/wiki/Transformation_de_Laplace
+cf [Wikipedia transformation de Laplace](https://fr.wikipedia.org/wiki/Transformation_de_Laplace)
 
 Pour rappel, le laplacien d'une fonction f(t) est :
 
