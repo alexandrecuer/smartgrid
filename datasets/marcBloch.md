@@ -28,12 +28,26 @@ Historisation dans les flux déclenchée le 08/02/21
 
 label|	Feed Number|	StartTime<br>unixTimestamp<br>(s)|	interval<br>(s) | unit
 --|--|--|--|--
-température extérieure | 5	|1612789800	|300	|°C
-consommation de la pompe 2 circuit Sud | 6	|1612789800	|300	|W
-consommation de la pompe 2 circuit Nord | 23	|1612790100	|300	|W
+température extérieure | 5	|1612789800	|300	| °C
+consommation de la pompe 2 circuit Sud | 6	|1612789800	|300	| W
+consommation de la pompe 2 circuit Nord | 23	|1612790100	|300	| W
+température intérieure B101 salle de musique Nord | 8 | 1612790100 | 300 | °C
+humidité relative B101 salle de musique Nord | 9 | 1612790100 | 300 | %
+température intérieure B209 salle de technologie Nord | 11 | 1612790100 | 300 | °C
+humidité relative B209 salle de technologie Nord | 12 | 1612790400 | 300 | %
+température intérieure B216 salle de cours Sud | 14 | 1612790400 | 300 | °C
+humidité relative B216 salle de cours Sud | 15 | 1612790400 | 300 | %
+température intérieure B140 salle d'art plastique Sud | 17 | 1612790400 | 300 | °C
+humidité relative B140 salle d'art plastique Sud | 18 | 1612790400 | 300  | %
 
-## Les timers (uniquement pour qualifier la qualité de la réception radio)
+## Les timers
+
+uniquement pour qualifier la qualité de la réception radio
 
 label|	Feed Number|	StartTime<br>unixTimestamp<br>(s)|	interval<br>(s)
 --|--|--|--
 température extérieure | 4 | 1612789800 | 300
+B101 salle de musique Nord | 7 | 1612790100 | 300
+B209 salle de technologie Nord | 10 | 1612790100 | 300
+B216 salle de cours Sud | 13 | 1612790400 | 300
+B140 salle d'art plastique Sud | 16 | 1612790400 | 300
