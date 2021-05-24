@@ -1,4 +1,4 @@
-To operate the datasets with python :
+A pip package is available to operate the datasets with python. To install it :
 
 ```
 python3 -m pip install --upgrade PyFina
