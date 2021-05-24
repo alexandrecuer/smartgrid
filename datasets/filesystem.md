@@ -2,7 +2,7 @@
 layout: default
 permalink: filesystem.html
 ---
-![site](images/main.png)
+![site](main.png)
 
 # Datasets file system overview
 
