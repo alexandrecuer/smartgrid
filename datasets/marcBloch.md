@@ -41,7 +41,7 @@ température intérieure B140 salle d'art plastique Sud | 17 | 1612790400 | 300 
 humidité relative B140 salle d'art plastique Sud | 18 | 1612790400 | 300  | %
 température d'ambiance dans la sous-station | 24 | 1612790700 | 300  | °C
 
-## les connées des circuits d'eau chaude
+## les données des circuits d'eau chaude
 
 label|	Feed Number|	StartTime<br>unixTimestamp<br>(s)|	interval<br>(s) | unit
 --|--|--|--|--
