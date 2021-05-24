@@ -22,9 +22,12 @@ to unpack :
 wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/datasets/emoncms-backup-2021-05-24.tar.gz
 tar -xvf emoncms-backup-2021-05-24.tar.gz
 ```
-Historisation dans les flux déclenchée le 08/02/21
+
+![site](images/bloch_vueavion.png)
 
 # sous-station Ouest
+
+Historisation dans les flux déclenchée le 08/02/21
 
 ## les données d'ambiance intérieure et extérieure
 
