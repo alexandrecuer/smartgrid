@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 # previoulsy called the internet of energy
 title: THEMIS datasets
-description: data as a fluid
+description: temperature, humidity and energy recordings on various buildings
 root: smartgrid
 url: http://alexandrecuer.github.io/smartgrid
 markdown: kramdown
