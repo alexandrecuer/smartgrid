@@ -2,6 +2,8 @@
 layout: default
 permalink: filesystem.html
 ---
+![site](images/main.png)
+
 # Datasets file system overview
 
 All datasets are in [emoncms](http://github.com/emoncms/emoncms) format
@@ -12,8 +14,8 @@ A single dataset consists of 2 files :
 
 All data stored in .dat file are 4 bytes (32 bits) float
 
-To control metas if doubt, open the .meta file	
-it contains 16 bytes	
+To control metas if doubt, open the .meta file
+it contains 16 bytes
 - 4 bytes	Unused – deprecated
 - 4 bytes	Unused – deprecated
 - 4 bytes	Interval – unsigned integer
@@ -21,7 +23,7 @@ it contains 16 bytes
 
 You may need an editor to perform such a manual check. On a linux OS, [Hexditor](http://flying.guy.chez-alice.fr/HexditorFr.php) is a cool choice :-)
 
-## Exemple of a meta file opening 
+## Exemple of a meta file opening
 On this exemple, the timeserie starts at 1526978160, unix time stamp, which is Tuesday, 22-May-2018 08:36:00 UTC, with a recordng interval of 120 s
 
 **Please note endianness is Little Endian (LE)**
@@ -32,7 +34,7 @@ On this exemple, the timeserie starts at 1526978160, unix time stamp, which is T
 
 ## operation
 
-Most sets can be restored on an EmonPI. 
+Most sets can be restored on an EmonPI.
 The EmonPI is a very cheap and efficient data monitoring and managing platform. [Buy it here](https://shop.openenergymonitor.com/emonpi/)
 
 When restoring sets coming from deprecated versions of emoncms, a database update can be necessary
@@ -43,9 +45,3 @@ Once connected through SSH :
 cd /opt/openenergymonitor/EmonScripts/common
 php emoncmsdbupdate.php
 ```
-
-## python library
-
-If you don't have an EmonPI, no problem. A simple computer with python will be sufficient to operate the datasets.
-
-[check this link](http://github.com/alexandrecuer/tf_works/tree/master/BIOS) : work in progress

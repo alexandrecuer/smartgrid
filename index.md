@@ -1,6 +1,13 @@
 
-![site](main.png)
+# Download various Themis datasets collected from the field.
 
-This site is a hub allowing to download various datasets collected from the field.
+To operate the datasets with python :
 
-If you are a datascientist searching for raw material, please have a look !
+```
+python3 -m pip install --upgrade PyFina
+```
+
+or if you use windows :
+```
+py -m pip install --upgrade PyFina
+```
