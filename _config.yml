@@ -5,3 +5,4 @@ description: temperature, humidity and energy recordings on various buildings
 root: smartgrid
 url: http://alexandrecuer.github.io/smartgrid
 markdown: kramdown
+logo: neural.svg
