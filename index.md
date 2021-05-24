@@ -14,7 +14,7 @@ python3 -m pip install --upgrade PyFina
 
 If you use Microsoft Windows operating system and you don't have python, you can dowload an installer from the python software foundation :
 
-https://www.python.org/downloads/windows/
+[https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
 
 Open a command prompt and run the pip installer
 ```
@@ -25,4 +25,4 @@ py -m pip install --upgrade PyFina
 
 check the documentation :
 
-https://github.com/Open-Building-Management/PyFina
+[https://github.com/Open-Building-Management/PyFina](https://github.com/Open-Building-Management/PyFina)
