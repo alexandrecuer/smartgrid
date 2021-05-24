@@ -38,11 +38,10 @@
       <header>
         <h1><a href="{{ "/" | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         <br>Datasets<br>
         <a href="{{ site.url }}/bloch.html">Collège Marc Bloch (2021)</a><br>
