@@ -12,7 +12,7 @@ python3 -m pip install --upgrade PyFina
 
 ## Windows
 
-If you use Microsoft Windows operating system and you don't have python, you can dowload an installer from the python software foundation :
+If you use Microsoft Windows operating system and you don't have python, you can **dowload and run** the last installer from the python software foundation :
 
 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
 
