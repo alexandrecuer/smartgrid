@@ -1,6 +1,3 @@
-
-# Download various Themis datasets collected from the field.
-
 To operate the datasets with python :
 
 ```

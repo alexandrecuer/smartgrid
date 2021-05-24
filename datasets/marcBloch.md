@@ -22,11 +22,18 @@ to unpack :
 wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/datasets/emoncms-backup-2021-05-24.tar.gz
 tar -xvf emoncms-backup-2021-05-24.tar.gz
 ```
-Historisation dans les flux déclenché le 08/02/21
+Historisation dans les flux déclenchée le 08/02/21
+
+## les données physiques
+
+label|	Feed Number|	StartTime<br>unixTimestamp<br>(s)|	interval<br>(s) | unit
+--|--|--|--|--
+température extérieure | 5	|1612789800	|300	|°C
+consommation de la pompe 2 circuit Sud | 6	|1612789800	|300	|W
+consommation de la pompe 2 circuit Nord | 23	|1612790100	|300	|W
+
+## Les timers (uniquement pour qualifier la qualité de la réception radio)
 
 label|	Feed Number|	StartTime<br>unixTimestamp<br>(s)|	interval<br>(s)
 --|--|--|--
-Text	Timer| 4	|1612789800	|300	|°C
-Text	°C | 5	|1612789800	|300	|°C
-pompe 2 Sud W | 6	|1612789800	|300	|°C
-pompe 2 Nord W | 23	|1612790100	|300	|°C
+température extérieure | 4 | 1612789800 | 300
