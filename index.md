@@ -26,3 +26,5 @@ py -m pip install --upgrade PyFina
 check the documentation :
 
 [https://github.com/Open-Building-Management/PyFina](https://github.com/Open-Building-Management/PyFina)
+
+examples are in the `tests` directory 
