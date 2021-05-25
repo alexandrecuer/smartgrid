@@ -6,9 +6,9 @@ permalink: filesystem.html
 
 # Datasets file system overview
 
-All datasets are in [emoncms](http://github.com/emoncms/emoncms) format
+All datasets are in [emoncms](http://github.com/emoncms/emoncms) format and consist of a bunch of feeds
 
-A single dataset consists of 2 files :
+Each feed consists of 2 files :
 - a .meta file
 - a .dat file
 
