@@ -16,6 +16,11 @@ If you use Microsoft Windows operating system and you don't have python, you can
 
 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
 
+if pip is not installed :
+```
+py -m ensurepip --upgrade
+```
+
 Open a command prompt and run the pip installer
 ```
 py -m pip install --upgrade PyFina
