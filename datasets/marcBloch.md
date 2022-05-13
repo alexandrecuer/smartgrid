@@ -10,7 +10,7 @@ permalink: bloch.html
 
 [download full dataset with a complete heating season 2021/2022](emoncms-backup-2022-05-13.tar.gz)
 
-collected from february to june 2021
+collected from february 2021 to may 2022
 
 environ 800 à 1000 élèves
 
